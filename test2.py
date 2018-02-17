@@ -34,8 +34,18 @@ for i, c in enumerate(columns):
     x = np.hstack((x, data))
 x = x[:, 1:]
 
-model = ps.spreg.OLS(y, x)
-print('R-squared =', model.r2)
+# Weights, row-standarsized
+w = ps.knnW_from_shapefile('Listings shp/Tract_With_Airbnb.shp', k=4, idVariable=None)
+w.transform = 'r'
+print(w)
+
+# Kernel-weights
+kw = ps.adaptive_kernelW_from_shapefile('Listings shp/Tract_With_Airbnb.shp', k=12, idVariable=None)
+print(kw)
+print(kw.weights)
+
+#model = ps.spreg.OLS(y, x)
+#print('R-squared =', model.r2)
 
 
 
