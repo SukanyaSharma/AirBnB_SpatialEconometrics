@@ -1,0 +1,226 @@
+
+
+REGRESSION
+----------
+SUMMARY OF OUTPUT: ORDINARY LEAST SQUARES
+-----------------------------------------
+Data set            :     unknown
+Weights matrix      :        None
+Dependent Variable  :     dep_var                Number of Observations:         177
+Mean dependent var  :      8.0206                Number of Variables   :           8
+S.D. dependent var  :      8.1030                Degrees of Freedom    :         169
+R-squared           :      0.0577
+Adjusted R-squared  :      0.0187
+Sum squared residual:   10889.235                F-statistic           :      1.4783
+Sigma-square        :      64.433                Prob(F-statistic)     :       0.178
+S.E. of regression  :       8.027                Log likelihood        :    -615.717
+Sigma-square ML     :      61.521                Akaike info criterion :    1247.435
+S.E of regression ML:      7.8435                Schwarz criterion     :    1272.844
+
+------------------------------------------------------------------------------------
+            Variable     Coefficient       Std.Error     t-Statistic     Probability
+------------------------------------------------------------------------------------
+            CONSTANT       2.7601921       3.7280114       0.7403926       0.4600892
+               var_1      -0.0003605       0.0021562      -0.1671780       0.8674298
+               var_2       0.0005934       0.0456371       0.0130016       0.9896419
+               var_3      -0.0184854       0.0539935      -0.3423641       0.7325023
+               var_4      -0.0137338       0.3181903      -0.0431622       0.9656232
+               var_5       0.0000526       0.0000240       2.1908803       0.0298292
+               var_6       0.0716130       0.1317490       0.5435565       0.5874630
+               var_7      -0.8249384       0.5674836      -1.4536779       0.1478901
+------------------------------------------------------------------------------------
+
+REGRESSION DIAGNOSTICS
+MULTICOLLINEARITY CONDITION NUMBER           16.057
+
+TEST ON NORMALITY OF ERRORS
+TEST                             DF        VALUE           PROB
+Jarque-Bera                       2      184013.833           0.0000
+
+DIAGNOSTICS FOR HETEROSKEDASTICITY
+RANDOM COEFFICIENTS
+TEST                             DF        VALUE           PROB
+Breusch-Pagan test                7        1015.142           0.0000
+Koenker-Bassett test              7          12.846           0.0759
+================================ END OF REPORT =====================================
+
+
+
+REGRESSION
+----------
+SUMMARY OF OUTPUT: ORDINARY LEAST SQUARES
+-----------------------------------------
+Data set            :     unknown
+Weights matrix      :        None
+Dependent Variable  :     dep_var                Number of Observations:         177
+Mean dependent var  :      8.0206                Number of Variables   :           8
+S.D. dependent var  :      8.1030                Degrees of Freedom    :         169
+R-squared           :      0.0577
+Adjusted R-squared  :      0.0187
+Sum squared residual:   10889.235                F-statistic           :      1.4783
+Sigma-square        :      64.433                Prob(F-statistic)     :       0.178
+S.E. of regression  :       8.027                Log likelihood        :    -615.717
+Sigma-square ML     :      61.521                Akaike info criterion :    1247.435
+S.E of regression ML:      7.8435                Schwarz criterion     :    1272.844
+
+------------------------------------------------------------------------------------
+            Variable     Coefficient       Std.Error     t-Statistic     Probability
+------------------------------------------------------------------------------------
+            CONSTANT       2.7601921       3.7280114       0.7403926       0.4600892
+               var_1      -0.0003605       0.0021562      -0.1671780       0.8674298
+               var_2       0.0005934       0.0456371       0.0130016       0.9896419
+               var_3      -0.0184854       0.0539935      -0.3423641       0.7325023
+               var_4      -0.0137338       0.3181903      -0.0431622       0.9656232
+               var_5       0.0000526       0.0000240       2.1908803       0.0298292
+               var_6       0.0716130       0.1317490       0.5435565       0.5874630
+               var_7      -0.8249384       0.5674836      -1.4536779       0.1478901
+------------------------------------------------------------------------------------
+
+REGRESSION DIAGNOSTICS
+MULTICOLLINEARITY CONDITION NUMBER           16.057
+
+TEST ON NORMALITY OF ERRORS
+TEST                             DF        VALUE           PROB
+Jarque-Bera                       2      184013.833           0.0000
+
+DIAGNOSTICS FOR HETEROSKEDASTICITY
+RANDOM COEFFICIENTS
+TEST                             DF        VALUE           PROB
+Breusch-Pagan test                7        1015.142           0.0000
+Koenker-Bassett test              7          12.846           0.0759
+================================ END OF REPORT =====================================
+
+
+
+REGRESSION
+----------
+SUMMARY OF OUTPUT: ORDINARY LEAST SQUARES
+-----------------------------------------
+Data set            :     unknown
+Weights matrix      :        None
+Dependent Variable  :     dep_var                Number of Observations:         177
+Mean dependent var  :      8.0206                Number of Variables   :           8
+S.D. dependent var  :      8.1030                Degrees of Freedom    :         169
+R-squared           :      0.0577
+Adjusted R-squared  :      0.0187
+Sum squared residual:   10889.235                F-statistic           :      1.4783
+Sigma-square        :      64.433                Prob(F-statistic)     :       0.178
+S.E. of regression  :       8.027                Log likelihood        :    -615.717
+Sigma-square ML     :      61.521                Akaike info criterion :    1247.435
+S.E of regression ML:      7.8435                Schwarz criterion     :    1272.844
+
+------------------------------------------------------------------------------------
+            Variable     Coefficient       Std.Error     t-Statistic     Probability
+------------------------------------------------------------------------------------
+            CONSTANT       2.7601921       3.7280114       0.7403926       0.4600892
+               var_1      -0.0003605       0.0021562      -0.1671780       0.8674298
+               var_2       0.0005934       0.0456371       0.0130016       0.9896419
+               var_3      -0.0184854       0.0539935      -0.3423641       0.7325023
+               var_4      -0.0137338       0.3181903      -0.0431622       0.9656232
+               var_5       0.0000526       0.0000240       2.1908803       0.0298292
+               var_6       0.0716130       0.1317490       0.5435565       0.5874630
+               var_7      -0.8249384       0.5674836      -1.4536779       0.1478901
+------------------------------------------------------------------------------------
+
+REGRESSION DIAGNOSTICS
+MULTICOLLINEARITY CONDITION NUMBER           16.057
+
+TEST ON NORMALITY OF ERRORS
+TEST                             DF        VALUE           PROB
+Jarque-Bera                       2      184013.833           0.0000
+
+DIAGNOSTICS FOR HETEROSKEDASTICITY
+RANDOM COEFFICIENTS
+TEST                             DF        VALUE           PROB
+Breusch-Pagan test                7        1015.142           0.0000
+Koenker-Bassett test              7          12.846           0.0759
+================================ END OF REPORT =====================================
+
+
+
+REGRESSION
+----------
+SUMMARY OF OUTPUT: ORDINARY LEAST SQUARES
+-----------------------------------------
+Data set            :     unknown
+Weights matrix      :        None
+Dependent Variable  :     dep_var                Number of Observations:         177
+Mean dependent var  :      8.0206                Number of Variables   :           8
+S.D. dependent var  :      8.1030                Degrees of Freedom    :         169
+R-squared           :      0.0577
+Adjusted R-squared  :      0.0187
+Sum squared residual:   10889.235                F-statistic           :      1.4783
+Sigma-square        :      64.433                Prob(F-statistic)     :       0.178
+S.E. of regression  :       8.027                Log likelihood        :    -615.717
+Sigma-square ML     :      61.521                Akaike info criterion :    1247.435
+S.E of regression ML:      7.8435                Schwarz criterion     :    1272.844
+
+------------------------------------------------------------------------------------
+            Variable     Coefficient       Std.Error     t-Statistic     Probability
+------------------------------------------------------------------------------------
+            CONSTANT       2.7601921       3.7280114       0.7403926       0.4600892
+               var_1      -0.0003605       0.0021562      -0.1671780       0.8674298
+               var_2       0.0005934       0.0456371       0.0130016       0.9896419
+               var_3      -0.0184854       0.0539935      -0.3423641       0.7325023
+               var_4      -0.0137338       0.3181903      -0.0431622       0.9656232
+               var_5       0.0000526       0.0000240       2.1908803       0.0298292
+               var_6       0.0716130       0.1317490       0.5435565       0.5874630
+               var_7      -0.8249384       0.5674836      -1.4536779       0.1478901
+------------------------------------------------------------------------------------
+
+REGRESSION DIAGNOSTICS
+MULTICOLLINEARITY CONDITION NUMBER           16.057
+
+TEST ON NORMALITY OF ERRORS
+TEST                             DF        VALUE           PROB
+Jarque-Bera                       2      184013.833           0.0000
+
+DIAGNOSTICS FOR HETEROSKEDASTICITY
+RANDOM COEFFICIENTS
+TEST                             DF        VALUE           PROB
+Breusch-Pagan test                7        1015.142           0.0000
+Koenker-Bassett test              7          12.846           0.0759
+
+SPECIFICATION ROBUST TEST
+TEST                             DF        VALUE           PROB
+White                            35          34.952           0.4705
+================================ END OF REPORT =====================================
+
+
+
+REGRESSION
+----------
+SUMMARY OF OUTPUT: ORDINARY LEAST SQUARES
+-----------------------------------------
+Data set            :     unknown
+Weights matrix      :     unknown
+Dependent Variable  :     dep_var                Number of Observations:         177
+Mean dependent var  :      8.0206                Number of Variables   :           8
+S.D. dependent var  :      8.1030                Degrees of Freedom    :         169
+R-squared           :      0.0577
+Adjusted R-squared  :      0.0187
+
+------------------------------------------------------------------------------------
+            Variable     Coefficient       Std.Error     t-Statistic     Probability
+------------------------------------------------------------------------------------
+            CONSTANT       2.7601921       3.7280114       0.7403926       0.4600892
+               var_1      -0.0003605       0.0021562      -0.1671780       0.8674298
+               var_2       0.0005934       0.0456371       0.0130016       0.9896419
+               var_3      -0.0184854       0.0539935      -0.3423641       0.7325023
+               var_4      -0.0137338       0.3181903      -0.0431622       0.9656232
+               var_5       0.0000526       0.0000240       2.1908803       0.0298292
+               var_6       0.0716130       0.1317490       0.5435565       0.5874630
+               var_7      -0.8249384       0.5674836      -1.4536779       0.1478901
+------------------------------------------------------------------------------------
+
+DIAGNOSTICS FOR SPATIAL DEPENDENCE
+TEST                           MI/DF       VALUE           PROB
+Moran's I (error)             -0.0043         0.269           0.7879
+Lagrange Multiplier (lag)         1           0.033           0.8566
+Robust LM (lag)                   1           0.281           0.5963
+Lagrange Multiplier (error)       1           0.008           0.9309
+Robust LM (error)                 1           0.255           0.6132
+Lagrange Multiplier (SARMA)       2           0.288           0.8658
+
+================================ END OF REPORT =====================================
+

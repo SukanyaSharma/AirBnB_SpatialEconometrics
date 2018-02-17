@@ -34,18 +34,26 @@ for i, c in enumerate(columns):
     x = np.hstack((x, data))
 x = x[:, 1:]
 
+logfile = open('Results.log', 'a')
+
+
+
 # Weights, row-standarsized
 w = ps.knnW_from_shapefile('Listings shp/Tract_With_Airbnb.shp', k=4, idVariable=None)
 w.transform = 'r'
-print(w)
 
 # Kernel-weights
 kw = ps.adaptive_kernelW_from_shapefile('Listings shp/Tract_With_Airbnb.shp', k=12, idVariable=None)
-print(kw)
-print(kw.weights)
 
-#model = ps.spreg.OLS(y, x)
-#print('R-squared =', model.r2)
+## For OLS + White-test + Spatial Diagnostics
+ols_spat = ps.spreg.OLS(y, x, w=w, robust=None, gwk=kw, sig2n_k=True, nonspat_diag=False, spat_diag=True, moran=True, white_test=True, vm=False, name_y=None, name_x=None, name_w=None, name_gwk=None, name_ds=None)
+#print(ols_spat.summary)
 
+#logfile.write('\n'*2 + ols_spat.summary + '\n'*2)
+logfile.close()
 
-
+## Langrange Multiplier error and lag values.
+vw = ps.spreg.diagnostics_sp.LMtests(ols_spat, w)
+print(vw)
+print(vw.lme)
+print(vw.lml)
