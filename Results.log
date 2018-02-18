@@ -224,3 +224,202 @@ Lagrange Multiplier (SARMA)       2           0.288           0.8658
 
 ================================ END OF REPORT =====================================
 
+
+
+REGRESSION
+----------
+SUMMARY OF OUTPUT: SPATIAL TWO STAGE LEAST SQUARES
+--------------------------------------------------
+Data set            :     unknown
+Weights matrix      :     unknown
+Dependent Variable  :     dep_var                Number of Observations:         177
+Mean dependent var  :      8.0206                Number of Variables   :           9
+S.D. dependent var  :      8.1030                Degrees of Freedom    :         168
+Pseudo R-squared    :      0.0551
+Spatial Pseudo R-squared:  0.0587
+
+------------------------------------------------------------------------------------
+            Variable     Coefficient       Std.Error     z-Statistic     Probability
+------------------------------------------------------------------------------------
+            CONSTANT       4.0407025       5.0237468       0.8043205       0.4212119
+               var_1      -0.0004764       0.0021332      -0.2233311       0.8232778
+               var_2       0.0070693       0.0479548       0.1474150       0.8828045
+               var_3      -0.0213003       0.0533810      -0.3990229       0.6898763
+               var_4      -0.0302790       0.3145645      -0.0962568       0.9233166
+               var_5       0.0000505       0.0000241       2.0957383       0.0361054
+               var_6       0.0729765       0.1289829       0.5657843       0.5715404
+               var_7      -0.7886541       0.5639003      -1.3985702       0.1619419
+           W_dep_var      -0.1525771       0.4115236      -0.3707615       0.7108152
+------------------------------------------------------------------------------------
+Instrumented: W_dep_var
+Instruments: W_var_1, W_var_2, W_var_3, W_var_4, W_var_5, W_var_6, W_var_7
+================================ END OF REPORT =====================================
+
+
+
+REGRESSION
+----------
+SUMMARY OF OUTPUT: SPATIAL TWO STAGE LEAST SQUARES
+--------------------------------------------------
+Data set            :     unknown
+Weights matrix      :     unknown
+Dependent Variable  :     dep_var                Number of Observations:         177
+Mean dependent var  :      8.0206                Number of Variables   :           9
+S.D. dependent var  :      8.1030                Degrees of Freedom    :         168
+Pseudo R-squared    :      0.0551
+Spatial Pseudo R-squared:  0.0587
+
+White Standard Errors
+------------------------------------------------------------------------------------
+            Variable     Coefficient       Std.Error     z-Statistic     Probability
+------------------------------------------------------------------------------------
+            CONSTANT       4.0407025       3.1157185       1.2968766       0.1946736
+               var_1      -0.0004764       0.0005234      -0.9102019       0.3627160
+               var_2       0.0070693       0.0128513       0.5500813       0.5822636
+               var_3      -0.0213003       0.0216902      -0.9820240       0.3260880
+               var_4      -0.0302790       0.0737773      -0.4104103       0.6815050
+               var_5       0.0000505       0.0000422       1.1971197       0.2312599
+               var_6       0.0729765       0.0743134       0.9820095       0.3260951
+               var_7      -0.7886541       0.7682100      -1.0266127       0.3046029
+           W_dep_var      -0.1525771       0.1857168      -0.8215578       0.4113286
+------------------------------------------------------------------------------------
+Instrumented: W_dep_var
+Instruments: W_var_1, W_var_2, W_var_3, W_var_4, W_var_5, W_var_6, W_var_7
+
+DIAGNOSTICS FOR SPATIAL DEPENDENCE
+TEST                           MI/DF       VALUE           PROB
+Anselin-Kelejian Test             1           0.105          0.7460
+================================ END OF REPORT =====================================
+
+
+
+REGRESSION
+----------
+SUMMARY OF OUTPUT: SPATIAL TWO STAGE LEAST SQUARES
+--------------------------------------------------
+Data set            :     unknown
+Weights matrix      :     unknown
+Dependent Variable  :     dep_var                Number of Observations:         177
+Mean dependent var  :      8.0206                Number of Variables   :           9
+S.D. dependent var  :      8.1030                Degrees of Freedom    :         168
+Pseudo R-squared    :      0.0551
+Spatial Pseudo R-squared:  0.0587
+
+HAC Standard Errors; Kernel Weights: unknown
+------------------------------------------------------------------------------------
+            Variable     Coefficient       Std.Error     z-Statistic     Probability
+------------------------------------------------------------------------------------
+            CONSTANT       4.0407025       3.6329809       1.1122278       0.2660402
+               var_1      -0.0004764       0.0005592      -0.8518817       0.3942797
+               var_2       0.0070693       0.0147852       0.4781297       0.6325579
+               var_3      -0.0213003       0.0239242      -0.8903215       0.3732933
+               var_4      -0.0302790       0.0710226      -0.4263288       0.6698683
+               var_5       0.0000505       0.0000397       1.2717315       0.2034685
+               var_6       0.0729765       0.0676138       1.0793137       0.2804479
+               var_7      -0.7886541       0.7148061      -1.1033119       0.2698917
+           W_dep_var      -0.1525771       0.1365780      -1.1171424       0.2639335
+------------------------------------------------------------------------------------
+Instrumented: W_dep_var
+Instruments: W_var_1, W_var_2, W_var_3, W_var_4, W_var_5, W_var_6, W_var_7
+
+DIAGNOSTICS FOR SPATIAL DEPENDENCE
+TEST                           MI/DF       VALUE           PROB
+Anselin-Kelejian Test             1           0.105          0.7460
+================================ END OF REPORT =====================================
+
+
+
+REGRESSION
+----------
+SUMMARY OF OUTPUT: MAXIMUM LIKELIHOOD SPATIAL LAG (METHOD = FULL)
+-----------------------------------------------------------------
+Data set            :     unknown
+Weights matrix      :     unknown
+Dependent Variable  :     dep_var                Number of Observations:         177
+Mean dependent var  :      8.0206                Number of Variables   :           9
+S.D. dependent var  :      8.1030                Degrees of Freedom    :         168
+Pseudo R-squared    :      0.0580
+Spatial Pseudo R-squared:  0.0579
+Sigma-square ML     :      61.504                Log likelihood        :    -615.700
+S.E of regression   :       7.842                Akaike info criterion :    1249.401
+                                                 Schwarz criterion     :    1277.986
+
+------------------------------------------------------------------------------------
+            Variable     Coefficient       Std.Error     z-Statistic     Probability
+------------------------------------------------------------------------------------
+            CONSTANT       2.9362750       3.7382989       0.7854575       0.4321854
+               var_1      -0.0003764       0.0021067      -0.1786786       0.8581901
+               var_2       0.0014839       0.0446193       0.0332559       0.9734705
+               var_3      -0.0188725       0.0527666      -0.3576602       0.7205977
+               var_4      -0.0160089       0.3108739      -0.0514965       0.9589299
+               var_5       0.0000523       0.0000234       2.2304121       0.0257201
+               var_6       0.0718005       0.1287197       0.5578050       0.5769775
+               var_7      -0.8199490       0.5545536      -1.4785748       0.1392540
+           W_dep_var      -0.0209809       0.1125732      -0.1863754       0.8521504
+------------------------------------------------------------------------------------
+================================ END OF REPORT =====================================
+
+
+
+REGRESSION
+----------
+SUMMARY OF OUTPUT: MAXIMUM LIKELIHOOD SPATIAL LAG (METHOD = FULL)
+-----------------------------------------------------------------
+Data set            :     unknown
+Weights matrix      :     unknown
+Dependent Variable  :     dep_var                Number of Observations:         177
+Mean dependent var  :      8.0206                Number of Variables   :           9
+S.D. dependent var  :      8.1030                Degrees of Freedom    :         168
+Pseudo R-squared    :      0.0580
+Spatial Pseudo R-squared:  0.0579
+Sigma-square ML     :      61.504                Log likelihood        :    -615.700
+S.E of regression   :       7.842                Akaike info criterion :    1249.401
+                                                 Schwarz criterion     :    1277.986
+
+------------------------------------------------------------------------------------
+            Variable     Coefficient       Std.Error     z-Statistic     Probability
+------------------------------------------------------------------------------------
+            CONSTANT       2.9362750       3.7382989       0.7854575       0.4321854
+               var_1      -0.0003764       0.0021067      -0.1786786       0.8581901
+               var_2       0.0014839       0.0446193       0.0332559       0.9734705
+               var_3      -0.0188725       0.0527666      -0.3576602       0.7205977
+               var_4      -0.0160089       0.3108739      -0.0514965       0.9589299
+               var_5       0.0000523       0.0000234       2.2304121       0.0257201
+               var_6       0.0718005       0.1287197       0.5578050       0.5769775
+               var_7      -0.8199490       0.5545536      -1.4785748       0.1392540
+           W_dep_var      -0.0209809       0.1125732      -0.1863754       0.8521504
+------------------------------------------------------------------------------------
+================================ END OF REPORT =====================================
+
+
+
+REGRESSION
+----------
+SUMMARY OF OUTPUT: MAXIMUM LIKELIHOOD SPATIAL LAG (METHOD = ORD)
+----------------------------------------------------------------
+Data set            :     unknown
+Weights matrix      :     unknown
+Dependent Variable  :     dep_var                Number of Observations:         177
+Mean dependent var  :      8.0206                Number of Variables   :           9
+S.D. dependent var  :      8.1030                Degrees of Freedom    :         168
+Pseudo R-squared    :      0.0580
+Spatial Pseudo R-squared:  0.0579
+Sigma-square ML     :      61.504                Log likelihood        :    -615.700
+S.E of regression   :       7.842                Akaike info criterion :    1249.401
+                                                 Schwarz criterion     :    1277.986
+
+------------------------------------------------------------------------------------
+            Variable     Coefficient       Std.Error     z-Statistic     Probability
+------------------------------------------------------------------------------------
+            CONSTANT       2.9362750       3.7382989       0.7854575       0.4321854
+               var_1      -0.0003764       0.0021067      -0.1786786       0.8581901
+               var_2       0.0014839       0.0446193       0.0332559       0.9734705
+               var_3      -0.0188725       0.0527666      -0.3576602       0.7205977
+               var_4      -0.0160089       0.3108739      -0.0514965       0.9589299
+               var_5       0.0000523       0.0000234       2.2304121       0.0257201
+               var_6       0.0718005       0.1287197       0.5578050       0.5769775
+               var_7      -0.8199490       0.5545536      -1.4785748       0.1392540
+           W_dep_var      -0.0209809       0.1125732      -0.1863754       0.8521504
+------------------------------------------------------------------------------------
+================================ END OF REPORT =====================================
+
