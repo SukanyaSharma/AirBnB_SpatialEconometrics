@@ -1,4 +1,3 @@
-Geography,,Location,,,Socio-Economic,,,,,,,,,Housing,,,,,,,Airbnb,
 GEOID,Census_Tracts_with_airbnb,log_BART_dist,coastal_tracts_dummy,log_CBD_dist,percent_bachelors_degree,percent_unempl,percent_foreign_born,percent_bpl,percent_white,percent_african_american_or_black,percent_hispanic,percent_other_races,log_MHI,log_median_rent,log_median_house_price,rental_units,Vacant_rental,rent_aff_1,rent_aff_2,rent_aff_3,percent_airbnb(all_rentals),percent_airbnb(active_rentals)
 06075010100,Census Tract 101,3.534677919,0,3.961632492,56.9,3.3,52,4.1,51.6,3.8,35.4,0,11.02584892,7.351799869,7.351799869,258,89,41.16265414,18.84908984,27.03497,13.42281879,19.13875598
 06041101100,Census Tract 1011,6.076373752,0,5.789054155,60.9,4.5,9,1.6,92.6,0,5.8,0,11.81129522,7.752764809,7.752764809,75,24,52.14285714,20,8.705343,7.407407407,10.52631579
