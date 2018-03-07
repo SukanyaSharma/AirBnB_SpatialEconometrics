@@ -12,7 +12,7 @@ logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
 logger.handlers =[]
 
-fh = logging.FileHandler('./'+logdatetime+'.log', mode='a')
+fh = logging.FileHandler('./' + logdatetime + '_All_Tracts.log', mode='a')
 fh.setLevel(logging.DEBUG)
 
 sh = logging.StreamHandler(stream=sys.stdout)
