@@ -1,0 +1,289 @@
+id,stcnttr,name,addr,level,dist,score
+Census Tract 101,Census Tract 101,Galileo High School,"1150 Francisco Street, San Francisco, CA 94109",9-12,0.77 miles,8
+Census Tract 101,Census Tract 101,S.F. County Civic Center Secondary,"727 Golden Gate Avenue, San Francisco, CA 94102",6-12,2.06 miles,Compare
+Census Tract 101,Census Tract 101,San Francisco County Rop School,"750 25th Avenue, San Francisco, CA 94121",10-12,2.31 miles,Compare
+Census Tract 101,Census Tract 101,Wells (Ida B.) High School,"1099 Hayes Street, San Francisco, CA 94117",9-12,2.62 miles,Compare
+Census Tract 101,Census Tract 101,Wallenberg (Raoul) Traditional High School,"40 Vega Street, San Francisco, CA 94115",9-12,2.72 miles,8
+Census Tract 101,Census Tract 101,International Studies Academy,"655 De Haro Street, San Francisco, CA 94107",9-12,3.31 miles,4
+Census Tract 101,Census Tract 101,Downtown High School,"693 Vermont Street, San Francisco, CA 94107",9-12,3.33 miles,Compare
+Census Tract 101,Census Tract 101,Mission High School,"3750 18th Street, San Francisco, CA 94114",9-12,3.38 miles,5
+Census Tract 101,Census Tract 101,S.F. International High School,"1050 York Street, San Francisco, CA 94110",9-12,3.38 miles,3
+Census Tract 101,Census Tract 101,O'connell (John) High School,"2355 Folsom Street, San Francisco, CA 94110",9-12,3.4 miles,3
+Census Tract 101,Census Tract 101,S.F. County Opportunity (Hilltop) School,"1325 Florida St, San Francisco, CA 94110",6-12,4.01 miles,Compare
+Census Tract 101,Census Tract 101,S.F. County Special Education School,"750 25th Ave, San Francisco, CA 94121",K-12,4.61 miles,Compare
+Census Tract 101,Census Tract 101,"Asawa (Ruth) San Francisco School Of The Arts, A Public School.","555 Portola Drive, San Francisco, CA 94131",9-12,4.83 miles,10
+Census Tract 101,Census Tract 101,Academy Of Arts And Sciences,"555 Portola Drive, San Francisco, CA 94131",9-12,4.83 miles,5
+Census Tract 101,Census Tract 101,Washington (George) High School,"600 32nd Avenue, San Francisco, CA 94121",9-12,4.9 miles,8
+Census Tract 1011,Census Tract 1011,Nova Education Center,"720 Diablo Boulevard, Novato, CA 94947",K-12,2.5 miles,4
+Census Tract 1011,Census Tract 1011,Nexus Academy,"720 Diablo Avenue, Novato, CA 94947",7-10,2.55 miles,Compare
+Census Tract 1011,Census Tract 1011,Marin Oaks High School,"720 Diablo Avenue, Novato, CA 94947",9-12,2.77 miles,Compare
+Census Tract 1011,Census Tract 1011,Novato High School,"625 Arthur Street, Novato, CA 94947",9-12,2.93 miles,8
+Census Tract 1011,Census Tract 1011,San Marin High School-Plus,"15 San Marin Drive, Novato, CA 94945",11-12,3.56 miles,Compare
+Census Tract 1011,Census Tract 1011,San Marin High School,"15 San Marin Drive, Novato, CA 94945",9-12,3.61 miles,8
+Census Tract 1012,Census Tract 1012,Marin Oaks High School,"720 Diablo Avenue, Novato, CA 94947",9-12,1.74 miles,Compare
+Census Tract 1012,Census Tract 1012,Nova Education Center,"720 Diablo Boulevard, Novato, CA 94947",K-12,1.81 miles,4
+Census Tract 1012,Census Tract 1012,Nexus Academy,"720 Diablo Avenue, Novato, CA 94947",7-10,1.83 miles,Compare
+Census Tract 1012,Census Tract 1012,Novato High School,"625 Arthur Street, Novato, CA 94947",9-12,1.89 miles,8
+Census Tract 1012,Census Tract 1012,San Marin High School-Plus,"15 San Marin Drive, Novato, CA 94945",11-12,3.75 miles,Compare
+Census Tract 1012,Census Tract 1012,San Marin High School,"15 San Marin Drive, Novato, CA 94945",9-12,3.84 miles,8
+Census Tract 102,Census Tract 102,Galileo High School,"1150 Francisco Street, San Francisco, CA 94109",9-12,0.14 miles,8
+Census Tract 102,Census Tract 102,S.F. County Civic Center Secondary,"727 Golden Gate Avenue, San Francisco, CA 94102",6-12,1.75 miles,Compare
+Census Tract 102,Census Tract 102,Wallenberg (Raoul) Traditional High School,"40 Vega Street, San Francisco, CA 94115",9-12,2.14 miles,8
+Census Tract 102,Census Tract 102,Wells (Ida B.) High School,"1099 Hayes Street, San Francisco, CA 94117",9-12,2.17 miles,Compare
+Census Tract 102,Census Tract 102,San Francisco County Rop School,"750 25th Avenue, San Francisco, CA 94121",10-12,2.28 miles,Compare
+Census Tract 102,Census Tract 102,Mission High School,"3750 18th Street, San Francisco, CA 94114",9-12,3.07 miles,5
+Census Tract 102,Census Tract 102,S.F. International High School,"1050 York Street, San Francisco, CA 94110",9-12,3.07 miles,3
+Census Tract 102,Census Tract 102,O'connell (John) High School,"2355 Folsom Street, San Francisco, CA 94110",9-12,3.22 miles,3
+Census Tract 102,Census Tract 102,Downtown High School,"693 Vermont Street, San Francisco, CA 94107",9-12,3.27 miles,Compare
+Census Tract 102,Census Tract 102,International Studies Academy,"655 De Haro Street, San Francisco, CA 94107",9-12,3.28 miles,4
+Census Tract 102,Census Tract 102,S.F. County Opportunity (Hilltop) School,"1325 Florida St, San Francisco, CA 94110",6-12,3.87 miles,Compare
+Census Tract 102,Census Tract 102,S.F. County Special Education School,"750 25th Ave, San Francisco, CA 94121",K-12,3.94 miles,Compare
+Census Tract 102,Census Tract 102,Washington (George) High School,"600 32nd Avenue, San Francisco, CA 94121",9-12,4.23 miles,8
+Census Tract 102,Census Tract 102,"Asawa (Ruth) San Francisco School Of The Arts, A Public School.","555 Portola Drive, San Francisco, CA 94131",9-12,4.38 miles,10
+Census Tract 102,Census Tract 102,Academy Of Arts And Sciences,"555 Portola Drive, San Francisco, CA 94131",9-12,4.38 miles,5
+Census Tract 102,Census Tract 102,Marshall (Thurgood) High School,"45 Conkling Street, San Francisco, CA, San Francisco, CA 94124",9-12,4.99 miles,4
+Census Tract 1021,Census Tract 1021,San Marin High School-Plus,"15 San Marin Drive, Novato, CA 94945",11-12,1.19 miles,Compare
+Census Tract 1021,Census Tract 1021,San Marin High School,"15 San Marin Drive, Novato, CA 94945",9-12,1.19 miles,8
+Census Tract 1021,Census Tract 1021,Nova Education Center,"720 Diablo Boulevard, Novato, CA 94947",K-12,2.19 miles,4
+Census Tract 1021,Census Tract 1021,Nexus Academy,"720 Diablo Avenue, Novato, CA 94947",7-10,2.23 miles,Compare
+Census Tract 1021,Census Tract 1021,Marin Oaks High School,"720 Diablo Avenue, Novato, CA 94947",9-12,2.79 miles,Compare
+Census Tract 1021,Census Tract 1021,Novato High School,"625 Arthur Street, Novato, CA 94947",9-12,2.88 miles,8
+Census Tract 1022.02,Census Tract 1022.02,San Marin High School-Plus,"15 San Marin Drive, Novato, CA 94945",11-12,0.98 miles,Compare
+Census Tract 1022.02,Census Tract 1022.02,San Marin High School,"15 San Marin Drive, Novato, CA 94945",9-12,1.07 miles,8
+Census Tract 1022.02,Census Tract 1022.02,Nova Education Center,"720 Diablo Boulevard, Novato, CA 94947",K-12,1.49 miles,4
+Census Tract 1022.02,Census Tract 1022.02,Nexus Academy,"720 Diablo Avenue, Novato, CA 94947",7-10,1.53 miles,Compare
+Census Tract 1022.02,Census Tract 1022.02,Marin Oaks High School,"720 Diablo Avenue, Novato, CA 94947",9-12,2.1 miles,Compare
+Census Tract 1022.02,Census Tract 1022.02,Novato High School,"625 Arthur Street, Novato, CA 94947",9-12,2.16 miles,8
+Census Tract 1022.03,Census Tract 1022.03,Nova Education Center,"720 Diablo Boulevard, Novato, CA 94947",K-12,0.87 miles,4
+Census Tract 1022.03,Census Tract 1022.03,Nexus Academy,"720 Diablo Avenue, Novato, CA 94947",7-10,0.92 miles,Compare
+Census Tract 1022.03,Census Tract 1022.03,Marin Oaks High School,"720 Diablo Avenue, Novato, CA 94947",9-12,1.36 miles,Compare
+Census Tract 1022.03,Census Tract 1022.03,Novato High School,"625 Arthur Street, Novato, CA 94947",9-12,1.49 miles,8
+Census Tract 1022.03,Census Tract 1022.03,San Marin High School-Plus,"15 San Marin Drive, Novato, CA 94945",11-12,2.22 miles,Compare
+Census Tract 1022.03,Census Tract 1022.03,San Marin High School,"15 San Marin Drive, Novato, CA 94945",9-12,2.31 miles,8
+Census Tract 103,Census Tract 103,Galileo High School,"1150 Francisco Street, San Francisco, CA 94109",9-12,0.47 miles,8
+Census Tract 103,Census Tract 103,S.F. County Civic Center Secondary,"727 Golden Gate Avenue, San Francisco, CA 94102",6-12,1.54 miles,Compare
+Census Tract 103,Census Tract 103,San Francisco County Rop School,"750 25th Avenue, San Francisco, CA 94121",10-12,1.89 miles,Compare
+Census Tract 103,Census Tract 103,Wells (Ida B.) High School,"1099 Hayes Street, San Francisco, CA 94117",9-12,2.1 miles,Compare
+Census Tract 103,Census Tract 103,Wallenberg (Raoul) Traditional High School,"40 Vega Street, San Francisco, CA 94115",9-12,2.23 miles,8
+Census Tract 103,Census Tract 103,Mission High School,"3750 18th Street, San Francisco, CA 94114",9-12,2.88 miles,5
+Census Tract 103,Census Tract 103,S.F. International High School,"1050 York Street, San Francisco, CA 94110",9-12,2.88 miles,3
+Census Tract 103,Census Tract 103,International Studies Academy,"655 De Haro Street, San Francisco, CA 94107",9-12,2.9 miles,4
+Census Tract 103,Census Tract 103,Downtown High School,"693 Vermont Street, San Francisco, CA 94107",9-12,2.91 miles,Compare
+Census Tract 103,Census Tract 103,O'connell (John) High School,"2355 Folsom Street, San Francisco, CA 94110",9-12,2.93 miles,3
+Census Tract 103,Census Tract 103,S.F. County Opportunity (Hilltop) School,"1325 Florida St, San Francisco, CA 94110",6-12,3.56 miles,Compare
+Census Tract 103,Census Tract 103,S.F. County Special Education School,"750 25th Ave, San Francisco, CA 94121",K-12,4.19 miles,Compare
+Census Tract 103,Census Tract 103,"Asawa (Ruth) San Francisco School Of The Arts, A Public School.","555 Portola Drive, San Francisco, CA 94131",9-12,4.31 miles,10
+Census Tract 103,Census Tract 103,Academy Of Arts And Sciences,"555 Portola Drive, San Francisco, CA 94131",9-12,4.31 miles,5
+Census Tract 103,Census Tract 103,Washington (George) High School,"600 32nd Avenue, San Francisco, CA 94121",9-12,4.51 miles,8
+Census Tract 103,Census Tract 103,Marshall (Thurgood) High School,"45 Conkling Street, San Francisco, CA, San Francisco, CA 94124",9-12,4.65 miles,4
+Census Tract 1031,Census Tract 1031,San Marin High School,"15 San Marin Drive, Novato, CA 94945",9-12,2.09 miles,8
+Census Tract 1031,Census Tract 1031,San Marin High School-Plus,"15 San Marin Drive, Novato, CA 94945",11-12,2.14 miles,Compare
+Census Tract 1031,Census Tract 1031,Nova Education Center,"720 Diablo Boulevard, Novato, CA 94947",K-12,4.16 miles,4
+Census Tract 1031,Census Tract 1031,Nexus Academy,"720 Diablo Avenue, Novato, CA 94947",7-10,4.17 miles,Compare
+Census Tract 1031,Census Tract 1031,Novato High School,"625 Arthur Street, Novato, CA 94947",9-12,4.57 miles,8
+Census Tract 1031,Census Tract 1031,Marin Oaks High School,"720 Diablo Avenue, Novato, CA 94947",9-12,4.61 miles,Compare
+Census Tract 1032,Census Tract 1032,Nexus Academy,"720 Diablo Avenue, Novato, CA 94947",7-10,0.6 miles,Compare
+Census Tract 1032,Census Tract 1032,Nova Education Center,"720 Diablo Boulevard, Novato, CA 94947",K-12,0.61 miles,4
+Census Tract 1032,Census Tract 1032,Novato High School,"625 Arthur Street, Novato, CA 94947",9-12,1.01 miles,8
+Census Tract 1032,Census Tract 1032,Marin Oaks High School,"720 Diablo Avenue, Novato, CA 94947",9-12,1.01 miles,Compare
+Census Tract 1032,Census Tract 1032,San Marin High School-Plus,"15 San Marin Drive, Novato, CA 94945",11-12,1.89 miles,Compare
+Census Tract 1032,Census Tract 1032,San Marin High School,"15 San Marin Drive, Novato, CA 94945",9-12,2.01 miles,8
+Census Tract 104,Census Tract 104,Galileo High School,"1150 Francisco Street, San Francisco, CA 94109",9-12,0.91 miles,8
+Census Tract 104,Census Tract 104,S.F. County Civic Center Secondary,"727 Golden Gate Avenue, San Francisco, CA 94102",6-12,1.76 miles,Compare
+Census Tract 104,Census Tract 104,San Francisco County Rop School,"750 25th Avenue, San Francisco, CA 94121",10-12,1.87 miles,Compare
+Census Tract 104,Census Tract 104,Wells (Ida B.) High School,"1099 Hayes Street, San Francisco, CA 94117",9-12,2.39 miles,Compare
+Census Tract 104,Census Tract 104,Wallenberg (Raoul) Traditional High School,"40 Vega Street, San Francisco, CA 94115",9-12,2.6 miles,8
+Census Tract 104,Census Tract 104,International Studies Academy,"655 De Haro Street, San Francisco, CA 94107",9-12,2.86 miles,4
+Census Tract 104,Census Tract 104,Downtown High School,"693 Vermont Street, San Francisco, CA 94107",9-12,2.89 miles,Compare
+Census Tract 104,Census Tract 104,O'connell (John) High School,"2355 Folsom Street, San Francisco, CA 94110",9-12,3.0 miles,3
+Census Tract 104,Census Tract 104,Mission High School,"3750 18th Street, San Francisco, CA 94114",9-12,3.05 miles,5
+Census Tract 104,Census Tract 104,S.F. International High School,"1050 York Street, San Francisco, CA 94110",9-12,3.05 miles,3
+Census Tract 104,Census Tract 104,S.F. County Opportunity (Hilltop) School,"1325 Florida St, San Francisco, CA 94110",6-12,3.59 miles,Compare
+Census Tract 104,Census Tract 104,"Asawa (Ruth) San Francisco School Of The Arts, A Public School.","555 Portola Drive, San Francisco, CA 94131",9-12,4.56 miles,10
+Census Tract 104,Census Tract 104,Academy Of Arts And Sciences,"555 Portola Drive, San Francisco, CA 94131",9-12,4.56 miles,5
+Census Tract 104,Census Tract 104,S.F. County Special Education School,"750 25th Ave, San Francisco, CA 94121",K-12,4.62 miles,Compare
+Census Tract 104,Census Tract 104,Marshall (Thurgood) High School,"45 Conkling Street, San Francisco, CA, San Francisco, CA 94124",9-12,4.65 miles,4
+Census Tract 104,Census Tract 104,Washington (George) High School,"600 32nd Avenue, San Francisco, CA 94121",9-12,4.95 miles,8
+Census Tract 1041.01,Census Tract 1041.01,Novato High School,"625 Arthur Street, Novato, CA 94947",9-12,0.79 miles,8
+Census Tract 1041.01,Census Tract 1041.01,Marin Oaks High School,"720 Diablo Avenue, Novato, CA 94947",9-12,0.85 miles,Compare
+Census Tract 1041.01,Census Tract 1041.01,Nexus Academy,"720 Diablo Avenue, Novato, CA 94947",7-10,1.42 miles,Compare
+Census Tract 1041.01,Census Tract 1041.01,Nova Education Center,"720 Diablo Boulevard, Novato, CA 94947",K-12,1.46 miles,4
+Census Tract 1041.01,Census Tract 1041.01,San Marin High School-Plus,"15 San Marin Drive, Novato, CA 94945",11-12,3.66 miles,Compare
+Census Tract 1041.01,Census Tract 1041.01,San Marin High School,"15 San Marin Drive, Novato, CA 94945",9-12,3.78 miles,8
+Census Tract 1041.01,Census Tract 1041.01,Marin County Special Education School,"1111 Las Gallinas Avenue, San Rafael, CA 94913",K-12,4.66 miles,3
+Census Tract 1041.01,Census Tract 1041.01,Marin County Rop School,"1111 Las Gallinas Avenue, San Rafael, CA 94913",9-12,4.66 miles,Compare
+Census Tract 1041.02,Census Tract 1041.02,Marin Oaks High School,"720 Diablo Avenue, Novato, CA 94947",9-12,0.7 miles,Compare
+Census Tract 1041.02,Census Tract 1041.02,Novato High School,"625 Arthur Street, Novato, CA 94947",9-12,0.76 miles,8
+Census Tract 1041.02,Census Tract 1041.02,Nexus Academy,"720 Diablo Avenue, Novato, CA 94947",7-10,1.18 miles,Compare
+Census Tract 1041.02,Census Tract 1041.02,Nova Education Center,"720 Diablo Boulevard, Novato, CA 94947",K-12,1.2 miles,4
+Census Tract 1041.02,Census Tract 1041.02,San Marin High School-Plus,"15 San Marin Drive, Novato, CA 94945",11-12,3.5 miles,Compare
+Census Tract 1041.02,Census Tract 1041.02,San Marin High School,"15 San Marin Drive, Novato, CA 94945",9-12,3.61 miles,8
+Census Tract 1042,Census Tract 1042,Novato High School,"625 Arthur Street, Novato, CA 94947",9-12,2.03 miles,8
+Census Tract 1042,Census Tract 1042,Marin Oaks High School,"720 Diablo Avenue, Novato, CA 94947",9-12,2.15 miles,Compare
+Census Tract 1042,Census Tract 1042,Nexus Academy,"720 Diablo Avenue, Novato, CA 94947",7-10,2.67 miles,Compare
+Census Tract 1042,Census Tract 1042,Nova Education Center,"720 Diablo Boulevard, Novato, CA 94947",K-12,2.73 miles,4
+Census Tract 1042,Census Tract 1042,Marin County Special Education School,"1111 Las Gallinas Avenue, San Rafael, CA 94913",K-12,3.37 miles,3
+Census Tract 1042,Census Tract 1042,Marin County Rop School,"1111 Las Gallinas Avenue, San Rafael, CA 94913",9-12,3.37 miles,Compare
+Census Tract 1042,Census Tract 1042,Terra Linda High School,"320 Nova Albion Way, San Rafael, CA 94903",9-12,4.33 miles,6
+Census Tract 1042,Census Tract 1042,Marin School of Environmental Leadership,"320 Nova Albion Way, San Rafael, CA 94903",9-12,4.36 miles,Compare
+Census Tract 1042,Census Tract 1042,San Marin High School-Plus,"15 San Marin Drive, Novato, CA 94945",11-12,4.67 miles,Compare
+Census Tract 1042,Census Tract 1042,San Marin High School,"15 San Marin Drive, Novato, CA 94945",9-12,4.8 miles,8
+Census Tract 1043,Census Tract 1043,WebDriverException,0,0,0,0
+Census Tract 1043,Census Tract 1043,UnexpectedAlertPresentException,0,0,0,0
+Census Tract 105,Census Tract 105,Galileo High School,"1150 Francisco Street, San Francisco, CA 94109",9-12,1.49 miles,8
+Census Tract 105,Census Tract 105,San Francisco County Rop School,"750 25th Avenue, San Francisco, CA 94121",10-12,1.73 miles,Compare
+Census Tract 105,Census Tract 105,S.F. County Civic Center Secondary,"727 Golden Gate Avenue, San Francisco, CA 94102",6-12,1.94 miles,Compare
+Census Tract 105,Census Tract 105,Wells (Ida B.) High School,"1099 Hayes Street, San Francisco, CA 94117",9-12,2.63 miles,Compare
+Census Tract 105,Census Tract 105,International Studies Academy,"655 De Haro Street, San Francisco, CA 94107",9-12,2.64 miles,4
+Census Tract 105,Census Tract 105,Downtown High School,"693 Vermont Street, San Francisco, CA 94107",9-12,2.7 miles,Compare
+Census Tract 105,Census Tract 105,O'connell (John) High School,"2355 Folsom Street, San Francisco, CA 94110",9-12,2.93 miles,3
+Census Tract 105,Census Tract 105,Wallenberg (Raoul) Traditional High School,"40 Vega Street, San Francisco, CA 94115",9-12,2.97 miles,8
+Census Tract 105,Census Tract 105,Mission High School,"3750 18th Street, San Francisco, CA 94114",9-12,3.11 miles,5
+Census Tract 105,Census Tract 105,S.F. International High School,"1050 York Street, San Francisco, CA 94110",9-12,3.11 miles,3
+Census Tract 105,Census Tract 105,S.F. County Opportunity (Hilltop) School,"1325 Florida St, San Francisco, CA 94110",6-12,3.45 miles,Compare
+Census Tract 105,Census Tract 105,Marshall (Thurgood) High School,"45 Conkling Street, San Francisco, CA, San Francisco, CA 94124",9-12,4.44 miles,4
+Census Tract 105,Census Tract 105,"Asawa (Ruth) San Francisco School Of The Arts, A Public School.","555 Portola Drive, San Francisco, CA 94131",9-12,4.71 miles,10
+Census Tract 105,Census Tract 105,Academy Of Arts And Sciences,"555 Portola Drive, San Francisco, CA 94131",9-12,4.71 miles,5
+Census Tract 1050,Census Tract 1050,Marin County Special Education School,"1111 Las Gallinas Avenue, San Rafael, CA 94913",K-12,3.6 miles,3
+Census Tract 1050,Census Tract 1050,Marin County Rop School,"1111 Las Gallinas Avenue, San Rafael, CA 94913",9-12,3.6 miles,Compare
+Census Tract 1050,Census Tract 1050,Marin Oaks High School,"720 Diablo Avenue, Novato, CA 94947",9-12,3.86 miles,Compare
+Census Tract 1050,Census Tract 1050,Novato High School,"625 Arthur Street, Novato, CA 94947",9-12,3.86 miles,8
+Census Tract 1050,Census Tract 1050,Nexus Academy,"720 Diablo Avenue, Novato, CA 94947",7-10,4.38 miles,Compare
+Census Tract 1050,Census Tract 1050,Nova Education Center,"720 Diablo Boulevard, Novato, CA 94947",K-12,4.41 miles,4
+Census Tract 1050,Census Tract 1050,Terra Linda High School,"320 Nova Albion Way, San Rafael, CA 94903",9-12,4.52 miles,6
+Census Tract 1050,Census Tract 1050,Marin School of Environmental Leadership,"320 Nova Albion Way, San Rafael, CA 94903",9-12,4.62 miles,Compare
+Census Tract 106,Census Tract 106,Galileo High School,"1150 Francisco Street, San Francisco, CA 94109",9-12,1.01 miles,8
+Census Tract 106,Census Tract 106,S.F. County Civic Center Secondary,"727 Golden Gate Avenue, San Francisco, CA 94102",6-12,1.62 miles,Compare
+Census Tract 106,Census Tract 106,San Francisco County Rop School,"750 25th Avenue, San Francisco, CA 94121",10-12,1.66 miles,Compare
+Census Tract 106,Census Tract 106,Wells (Ida B.) High School,"1099 Hayes Street, San Francisco, CA 94117",9-12,2.28 miles,Compare
+Census Tract 106,Census Tract 106,Wallenberg (Raoul) Traditional High School,"40 Vega Street, San Francisco, CA 94115",9-12,2.55 miles,8
+Census Tract 106,Census Tract 106,International Studies Academy,"655 De Haro Street, San Francisco, CA 94107",9-12,2.65 miles,4
+Census Tract 106,Census Tract 106,Downtown High School,"693 Vermont Street, San Francisco, CA 94107",9-12,2.68 miles,Compare
+Census Tract 106,Census Tract 106,O'connell (John) High School,"2355 Folsom Street, San Francisco, CA 94110",9-12,2.81 miles,3
+Census Tract 106,Census Tract 106,Mission High School,"3750 18th Street, San Francisco, CA 94114",9-12,2.89 miles,5
+Census Tract 106,Census Tract 106,S.F. International High School,"1050 York Street, San Francisco, CA 94110",9-12,2.89 miles,3
+Census Tract 106,Census Tract 106,S.F. County Opportunity (Hilltop) School,"1325 Florida St, San Francisco, CA 94110",6-12,3.39 miles,Compare
+Census Tract 106,Census Tract 106,"Asawa (Ruth) San Francisco School Of The Arts, A Public School.","555 Portola Drive, San Francisco, CA 94131",9-12,4.43 miles,10
+Census Tract 106,Census Tract 106,Academy Of Arts And Sciences,"555 Portola Drive, San Francisco, CA 94131",9-12,4.43 miles,5
+Census Tract 106,Census Tract 106,Marshall (Thurgood) High School,"45 Conkling Street, San Francisco, CA, San Francisco, CA 94124",9-12,4.44 miles,4
+Census Tract 106,Census Tract 106,S.F. County Special Education School,"750 25th Ave, San Francisco, CA 94121",K-12,4.6 miles,Compare
+Census Tract 106,Census Tract 106,Washington (George) High School,"600 32nd Avenue, San Francisco, CA 94121",9-12,4.95 miles,8
+Census Tract 1060.01,Census Tract 1060.01,Marin County Special Education School,"1111 Las Gallinas Avenue, San Rafael, CA 94913",K-12,0.49 miles,3
+Census Tract 1060.01,Census Tract 1060.01,Marin County Rop School,"1111 Las Gallinas Avenue, San Rafael, CA 94913",9-12,0.49 miles,Compare
+Census Tract 1060.01,Census Tract 1060.01,Terra Linda High School,"320 Nova Albion Way, San Rafael, CA 94903",9-12,0.79 miles,6
+Census Tract 1060.01,Census Tract 1060.01,Marin School of Environmental Leadership,"320 Nova Albion Way, San Rafael, CA 94903",9-12,0.9 miles,Compare
+Census Tract 1060.01,Census Tract 1060.01,Sir Francis Drake High School,"1327 Sir Francis Drake Boulevard, San Anselmo, CA 94960",9-12,2.41 miles,9
+Census Tract 1060.01,Census Tract 1060.01,Madrone High Continuation School,"185 Mission Ave, San Rafael, CA 94901",9-12,3.07 miles,Compare
+Census Tract 1060.01,Census Tract 1060.01,San Rafael High School,"150 Third Street, San Rafael, CA 94901",9-12,3.21 miles,5
+Census Tract 1060.01,Census Tract 1060.01,Redwood High School,"395 Doherty Drive, Larkspur, CA 94939",9-12,4.95 miles,9
+Census Tract 1060.01,Census Tract 1060.01,Tamiscal High (Alternative) School,"305 Doherty Drive, Larkspur, CA 94939",9-12,4.96 miles,8
+Census Tract 1060.02,Census Tract 1060.02,Madrone High Continuation School,"185 Mission Ave, San Rafael, CA 94901",9-12,2.2 miles,Compare
+Census Tract 1060.02,Census Tract 1060.02,San Rafael High School,"150 Third Street, San Rafael, CA 94901",9-12,2.33 miles,5
+Census Tract 1060.02,Census Tract 1060.02,Terra Linda High School,"320 Nova Albion Way, San Rafael, CA 94903",9-12,2.77 miles,6
+Census Tract 1060.02,Census Tract 1060.02,Marin County Special Education School,"1111 Las Gallinas Avenue, San Rafael, CA 94913",K-12,2.83 miles,3
+Census Tract 1060.02,Census Tract 1060.02,Marin County Rop School,"1111 Las Gallinas Avenue, San Rafael, CA 94913",9-12,2.83 miles,Compare
+Census Tract 1060.02,Census Tract 1060.02,Marin School of Environmental Leadership,"320 Nova Albion Way, San Rafael, CA 94903",9-12,2.88 miles,Compare
+Census Tract 1060.02,Census Tract 1060.02,Sir Francis Drake High School,"1327 Sir Francis Drake Boulevard, San Anselmo, CA 94960",9-12,4.15 miles,9
+Census Tract 1060.02,Census Tract 1060.02,Tamalpais Adult/Community Education,"375 Doherty Drive, Larkspur, CA 94939",n/a,4.65 miles,Compare
+Census Tract 1060.02,Census Tract 1060.02,Tamiscal High (Alternative) School,"305 Doherty Drive, Larkspur, CA 94939",9-12,4.69 miles,8
+Census Tract 1060.02,Census Tract 1060.02,Redwood High School,"395 Doherty Drive, Larkspur, CA 94939",9-12,4.72 miles,9
+Census Tract 1060.02,Census Tract 1060.02,San Andreas High (Continuation) School,"599 William Avenue, Larkspur, CA 94939",10-12,4.79 miles,Compare
+Census Tract 107,Census Tract 107,Galileo High School,"1150 Francisco Street, San Francisco, CA 94109",9-12,0.84 miles,8
+Census Tract 107,Census Tract 107,S.F. County Civic Center Secondary,"727 Golden Gate Avenue, San Francisco, CA 94102",6-12,1.47 miles,Compare
+Census Tract 107,Census Tract 107,San Francisco County Rop School,"750 25th Avenue, San Francisco, CA 94121",10-12,1.62 miles,Compare
+Census Tract 107,Census Tract 107,Wells (Ida B.) High School,"1099 Hayes Street, San Francisco, CA 94117",9-12,2.11 miles,Compare
+Census Tract 107,Census Tract 107,Wallenberg (Raoul) Traditional High School,"40 Vega Street, San Francisco, CA 94115",9-12,2.35 miles,8
+Census Tract 107,Census Tract 107,International Studies Academy,"655 De Haro Street, San Francisco, CA 94107",9-12,2.62 miles,4
+Census Tract 107,Census Tract 107,Downtown High School,"693 Vermont Street, San Francisco, CA 94107",9-12,2.65 miles,Compare
+Census Tract 107,Census Tract 107,O'connell (John) High School,"2355 Folsom Street, San Francisco, CA 94110",9-12,2.73 miles,3
+Census Tract 107,Census Tract 107,Mission High School,"3750 18th Street, San Francisco, CA 94114",9-12,2.76 miles,5
+Census Tract 107,Census Tract 107,S.F. International High School,"1050 York Street, San Francisco, CA 94110",9-12,2.76 miles,3
+Census Tract 107,Census Tract 107,S.F. County Opportunity (Hilltop) School,"1325 Florida St, San Francisco, CA 94110",6-12,3.33 miles,Compare
+Census Tract 107,Census Tract 107,"Asawa (Ruth) San Francisco School Of The Arts, A Public School.","555 Portola Drive, San Francisco, CA 94131",9-12,4.28 miles,10
+Census Tract 107,Census Tract 107,Academy Of Arts And Sciences,"555 Portola Drive, San Francisco, CA 94131",9-12,4.28 miles,5
+Census Tract 107,Census Tract 107,S.F. County Special Education School,"750 25th Ave, San Francisco, CA 94121",K-12,4.4 miles,Compare
+Census Tract 107,Census Tract 107,Marshall (Thurgood) High School,"45 Conkling Street, San Francisco, CA, San Francisco, CA 94124",9-12,4.4 miles,4
+Census Tract 107,Census Tract 107,Washington (George) High School,"600 32nd Avenue, San Francisco, CA 94121",9-12,4.74 miles,8
+Census Tract 1070,Census Tract 1070,Marin County Special Education School,"1111 Las Gallinas Avenue, San Rafael, CA 94913",K-12,2.49 miles,3
+Census Tract 1070,Census Tract 1070,Marin County Rop School,"1111 Las Gallinas Avenue, San Rafael, CA 94913",9-12,2.49 miles,Compare
+Census Tract 1070,Census Tract 1070,Marin School of Environmental Leadership,"320 Nova Albion Way, San Rafael, CA 94903",9-12,3.2 miles,Compare
+Census Tract 1070,Census Tract 1070,Terra Linda High School,"320 Nova Albion Way, San Rafael, CA 94903",9-12,3.21 miles,6
+Census Tract 1070,Census Tract 1070,Novato High School,"625 Arthur Street, Novato, CA 94947",9-12,3.64 miles,8
+Census Tract 1070,Census Tract 1070,Marin Oaks High School,"720 Diablo Avenue, Novato, CA 94947",9-12,3.78 miles,Compare
+Census Tract 1070,Census Tract 1070,Sir Francis Drake High School,"1327 Sir Francis Drake Boulevard, San Anselmo, CA 94960",9-12,3.82 miles,9
+Census Tract 1070,Census Tract 1070,Nexus Academy,"720 Diablo Avenue, Novato, CA 94947",7-10,4.23 miles,Compare
+Census Tract 1070,Census Tract 1070,Nova Education Center,"720 Diablo Boulevard, Novato, CA 94947",K-12,4.28 miles,4
+Census Tract 108,Census Tract 108,Galileo High School,"1150 Francisco Street, San Francisco, CA 94109",9-12,0.72 miles,8
+Census Tract 108,Census Tract 108,S.F. County Civic Center Secondary,"727 Golden Gate Avenue, San Francisco, CA 94102",6-12,1.23 miles,Compare
+Census Tract 108,Census Tract 108,San Francisco County Rop School,"750 25th Avenue, San Francisco, CA 94121",10-12,1.52 miles,Compare
+Census Tract 108,Census Tract 108,Wells (Ida B.) High School,"1099 Hayes Street, San Francisco, CA 94117",9-12,1.84 miles,Compare
+Census Tract 108,Census Tract 108,Wallenberg (Raoul) Traditional High School,"40 Vega Street, San Francisco, CA 94115",9-12,2.07 miles,8
+Census Tract 108,Census Tract 108,International Studies Academy,"655 De Haro Street, San Francisco, CA 94107",9-12,2.53 miles,4
+Census Tract 108,Census Tract 108,Downtown High School,"693 Vermont Street, San Francisco, CA 94107",9-12,2.54 miles,Compare
+Census Tract 108,Census Tract 108,Mission High School,"3750 18th Street, San Francisco, CA 94114",9-12,2.55 miles,5
+Census Tract 108,Census Tract 108,S.F. International High School,"1050 York Street, San Francisco, CA 94110",9-12,2.55 miles,3
+Census Tract 108,Census Tract 108,O'connell (John) High School,"2355 Folsom Street, San Francisco, CA 94110",9-12,2.57 miles,3
+Census Tract 108,Census Tract 108,S.F. County Opportunity (Hilltop) School,"1325 Florida St, San Francisco, CA 94110",6-12,3.19 miles,Compare
+Census Tract 108,Census Tract 108,"Asawa (Ruth) San Francisco School Of The Arts, A Public School.","555 Portola Drive, San Francisco, CA 94131",9-12,4.03 miles,10
+Census Tract 108,Census Tract 108,Academy Of Arts And Sciences,"555 Portola Drive, San Francisco, CA 94131",9-12,4.03 miles,5
+Census Tract 108,Census Tract 108,S.F. County Special Education School,"750 25th Ave, San Francisco, CA 94121",K-12,4.12 miles,Compare
+Census Tract 108,Census Tract 108,Marshall (Thurgood) High School,"45 Conkling Street, San Francisco, CA, San Francisco, CA 94124",9-12,4.28 miles,4
+Census Tract 108,Census Tract 108,Washington (George) High School,"600 32nd Avenue, San Francisco, CA 94121",9-12,4.47 miles,8
+Census Tract 1081,Census Tract 1081,Marin County Special Education School,"1111 Las Gallinas Avenue, San Rafael, CA 94913",K-12,0.71 miles,3
+Census Tract 1081,Census Tract 1081,Marin County Rop School,"1111 Las Gallinas Avenue, San Rafael, CA 94913",9-12,0.71 miles,Compare
+Census Tract 1081,Census Tract 1081,Terra Linda High School,"320 Nova Albion Way, San Rafael, CA 94903",9-12,1.41 miles,6
+Census Tract 1081,Census Tract 1081,Marin School of Environmental Leadership,"320 Nova Albion Way, San Rafael, CA 94903",9-12,1.42 miles,Compare
+Census Tract 1081,Census Tract 1081,Sir Francis Drake High School,"1327 Sir Francis Drake Boulevard, San Anselmo, CA 94960",9-12,2.48 miles,9
+Census Tract 1081,Census Tract 1081,Madrone High Continuation School,"185 Mission Ave, San Rafael, CA 94901",9-12,4.15 miles,Compare
+Census Tract 1081,Census Tract 1081,San Rafael High School,"150 Third Street, San Rafael, CA 94901",9-12,4.29 miles,5
+Census Tract 1081,Census Tract 1081,Novato High School,"625 Arthur Street, Novato, CA 94947",9-12,5.0 miles,8
+Census Tract 1082,Census Tract 1082,Terra Linda High School,"320 Nova Albion Way, San Rafael, CA 94903",9-12,0.21 miles,6
+Census Tract 1082,Census Tract 1082,Marin School of Environmental Leadership,"320 Nova Albion Way, San Rafael, CA 94903",9-12,0.32 miles,Compare
+Census Tract 1082,Census Tract 1082,Marin County Special Education School,"1111 Las Gallinas Avenue, San Rafael, CA 94913",K-12,1.06 miles,3
+Census Tract 1082,Census Tract 1082,Marin County Rop School,"1111 Las Gallinas Avenue, San Rafael, CA 94913",9-12,1.06 miles,Compare
+Census Tract 1082,Census Tract 1082,Sir Francis Drake High School,"1327 Sir Francis Drake Boulevard, San Anselmo, CA 94960",9-12,1.77 miles,9
+Census Tract 1082,Census Tract 1082,Madrone High Continuation School,"185 Mission Ave, San Rafael, CA 94901",9-12,2.64 miles,Compare
+Census Tract 1082,Census Tract 1082,San Rafael High School,"150 Third Street, San Rafael, CA 94901",9-12,2.77 miles,5
+Census Tract 1082,Census Tract 1082,Redwood High School,"395 Doherty Drive, Larkspur, CA 94939",9-12,4.29 miles,9
+Census Tract 1082,Census Tract 1082,Tamiscal High (Alternative) School,"305 Doherty Drive, Larkspur, CA 94939",9-12,4.31 miles,8
+Census Tract 1082,Census Tract 1082,Tamalpais Adult/Community Education,"375 Doherty Drive, Larkspur, CA 94939",n/a,4.4 miles,Compare
+Census Tract 1082,Census Tract 1082,San Andreas High (Continuation) School,"599 William Avenue, Larkspur, CA 94939",10-12,4.57 miles,Compare
+Census Tract 109,Census Tract 109,Galileo High School,"1150 Francisco Street, San Francisco, CA 94109",9-12,0.43 miles,8
+Census Tract 109,Census Tract 109,S.F. County Civic Center Secondary,"727 Golden Gate Avenue, San Francisco, CA 94102",6-12,1.22 miles,Compare
+Census Tract 109,Census Tract 109,Wells (Ida B.) High School,"1099 Hayes Street, San Francisco, CA 94117",9-12,1.72 miles,Compare
+Census Tract 109,Census Tract 109,San Francisco County Rop School,"750 25th Avenue, San Francisco, CA 94121",10-12,1.74 miles,Compare
+Census Tract 109,Census Tract 109,Wallenberg (Raoul) Traditional High School,"40 Vega Street, San Francisco, CA 94115",9-12,1.83 miles,8
+Census Tract 109,Census Tract 109,Mission High School,"3750 18th Street, San Francisco, CA 94114",9-12,2.55 miles,5
+Census Tract 109,Census Tract 109,S.F. International High School,"1050 York Street, San Francisco, CA 94110",9-12,2.55 miles,3
+Census Tract 109,Census Tract 109,O'connell (John) High School,"2355 Folsom Street, San Francisco, CA 94110",9-12,2.67 miles,3
+Census Tract 109,Census Tract 109,Downtown High School,"693 Vermont Street, San Francisco, CA 94107",9-12,2.72 miles,Compare
+Census Tract 109,Census Tract 109,International Studies Academy,"655 De Haro Street, San Francisco, CA 94107",9-12,2.74 miles,4
+Census Tract 109,Census Tract 109,S.F. County Opportunity (Hilltop) School,"1325 Florida St, San Francisco, CA 94110",6-12,3.32 miles,Compare
+Census Tract 109,Census Tract 109,S.F. County Special Education School,"750 25th Ave, San Francisco, CA 94121",K-12,3.81 miles,Compare
+Census Tract 109,Census Tract 109,"Asawa (Ruth) San Francisco School Of The Arts, A Public School.","555 Portola Drive, San Francisco, CA 94131",9-12,3.94 miles,10
+Census Tract 109,Census Tract 109,Academy Of Arts And Sciences,"555 Portola Drive, San Francisco, CA 94131",9-12,3.94 miles,5
+Census Tract 109,Census Tract 109,Washington (George) High School,"600 32nd Avenue, San Francisco, CA 94121",9-12,4.15 miles,8
+Census Tract 109,Census Tract 109,Marshall (Thurgood) High School,"45 Conkling Street, San Francisco, CA, San Francisco, CA 94124",9-12,4.44 miles,4
+Census Tract 109,Census Tract 109,Lincoln (Abraham) High School,"2162 24th Avenue, San Francisco, CA 94116",9-12,4.83 miles,8
+Census Tract 1090.01,Census Tract 1090.01,Madrone High Continuation School,"185 Mission Ave, San Rafael, CA 94901",9-12,1.17 miles,Compare
+Census Tract 1090.01,Census Tract 1090.01,San Rafael High School,"150 Third Street, San Rafael, CA 94901",9-12,1.28 miles,5
+Census Tract 1090.01,Census Tract 1090.01,Terra Linda High School,"320 Nova Albion Way, San Rafael, CA 94903",9-12,1.65 miles,6
+Census Tract 1090.01,Census Tract 1090.01,Marin School of Environmental Leadership,"320 Nova Albion Way, San Rafael, CA 94903",9-12,1.69 miles,Compare
+Census Tract 1090.01,Census Tract 1090.01,Sir Francis Drake High School,"1327 Sir Francis Drake Boulevard, San Anselmo, CA 94960",9-12,2.3 miles,9
+Census Tract 1090.01,Census Tract 1090.01,Marin County Special Education School,"1111 Las Gallinas Avenue, San Rafael, CA 94913",K-12,2.47 miles,3
+Census Tract 1090.01,Census Tract 1090.01,Marin County Rop School,"1111 Las Gallinas Avenue, San Rafael, CA 94913",9-12,2.47 miles,Compare
+Census Tract 1090.01,Census Tract 1090.01,Tamiscal High (Alternative) School,"305 Doherty Drive, Larkspur, CA 94939",9-12,3.02 miles,8
+Census Tract 1090.01,Census Tract 1090.01,Redwood High School,"395 Doherty Drive, Larkspur, CA 94939",9-12,3.02 miles,9
+Census Tract 1090.01,Census Tract 1090.01,Tamalpais Adult/Community Education,"375 Doherty Drive, Larkspur, CA 94939",n/a,3.06 miles,Compare
+Census Tract 1090.01,Census Tract 1090.01,San Andreas High (Continuation) School,"599 William Avenue, Larkspur, CA 94939",10-12,3.23 miles,Compare
+Census Tract 1090.02,Census Tract 1090.02,Marin School of Environmental Leadership,"320 Nova Albion Way, San Rafael, CA 94903",9-12,1.04 miles,Compare
+Census Tract 1090.02,Census Tract 1090.02,Terra Linda High School,"320 Nova Albion Way, San Rafael, CA 94903",9-12,1.07 miles,6
+Census Tract 1090.02,Census Tract 1090.02,Sir Francis Drake High School,"1327 Sir Francis Drake Boulevard, San Anselmo, CA 94960",9-12,1.31 miles,9
+Census Tract 1090.02,Census Tract 1090.02,Marin County Special Education School,"1111 Las Gallinas Avenue, San Rafael, CA 94913",K-12,2.08 miles,3
+Census Tract 1090.02,Census Tract 1090.02,Marin County Rop School,"1111 Las Gallinas Avenue, San Rafael, CA 94913",9-12,2.08 miles,Compare
+Census Tract 1090.02,Census Tract 1090.02,Madrone High Continuation School,"185 Mission Ave, San Rafael, CA 94901",9-12,2.11 miles,Compare
+Census Tract 1090.02,Census Tract 1090.02,San Rafael High School,"150 Third Street, San Rafael, CA 94901",9-12,2.2 miles,5
+Census Tract 1090.02,Census Tract 1090.02,Redwood High School,"395 Doherty Drive, Larkspur, CA 94939",9-12,3.3 miles,9
+Census Tract 1090.02,Census Tract 1090.02,Tamiscal High (Alternative) School,"305 Doherty Drive, Larkspur, CA 94939",9-12,3.33 miles,8
+Census Tract 1090.02,Census Tract 1090.02,Tamalpais Adult/Community Education,"375 Doherty Drive, Larkspur, CA 94939",n/a,3.44 miles,Compare
+Census Tract 1090.02,Census Tract 1090.02,San Andreas High (Continuation) School,"599 William Avenue, Larkspur, CA 94939",10-12,3.61 miles,Compare
