@@ -41,12 +41,12 @@ with open("./Dataset_MAIN/School_District_Quality/CT_Centroid_outcome_missing.cs
 
 driver = webdriver.Chrome(executable_path = "chromedriver")
 ##myfile=open('M:/Millennial_CA/21_RC_LCCM/03_data_process/07_Python/Bak_greatschools/greatschools_elem_run4.csv', 'wt')
-myfile=open('./Dataset_MAIN/School_District_Quality/School_outcome4.csv', 'wt')
+myfile=open('./Dataset_MAIN/School_District_Quality/School_outcome2.csv', 'wt')
 ##myfile=open('M:/Millennial_CA/21_RC_LCCM/03_data_process/07_Python/Bak_greatschools/greatschools_high.csv', 'wt')
 outputfile = csv.writer(myfile, delimiter=',', lineterminator='\n')
 outputfile.writerow(["id", "stcnttr", "name", "addr", "level", "dist", "score"])
 
-for i in range(109, 868):  
+for i in range(0, 123):  
     scores = []
     scores.append(ids[i])
     scores.append(blkgrp[i])
