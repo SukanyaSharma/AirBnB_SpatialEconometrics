@@ -1,34 +1,28 @@
+from __init__Longitudinal import *
 import numpy as np
 import pandas as pd
 import statsmodels.api as sm
 
-#with open('../Dataset_MAIN/Longitudinal Analysis Dataset/Panel_Data.csv', 'r') as readfile:
-#    header = readfile.readline()
-#    data = readfile.readlines()
-
-#data = [i.split(',') for i in data]
-
-#for i in range(20):
-#    if i != 0 and i != 2:
-#        print(list(map(float, data[:][i])))
-#        break
-#        data[:,i] = list(map(float, data[:,i]))
 
 
-data = pd.read_csv('../Dataset_MAIN/Longitudinal Analysis Dataset/Panel_Data.csv')
+db = 'Dataset_MAIN/Longitudinal Analysis Dataset/Panel_Data.csv'
+logger.info('Database: ' + db)
+data = pd.read_csv('../' + db)
 data2 = np.asarray(data)
 
-fml = 'rent_aff_1 ~ ' + ' + '.join(data.columns[7:18])
 
-#model = sm.MixedLM(endog = np.array(data['rent_aff_1']),\
-#                   exog = np.array(data2[:, 7:18]),\
-#                   groups = data['Census_Tract'],\
-#                   exog_re=None)
+ys = data.columns[3:7]
 
-model = sm.MixedLM.from_formula(fml,\
-                                data,
-                                groups = data['Census_Tract'])
+for x in [7, 8]:
+    for y in ys:
+        fml = y + ' ~ ' + data.columns[x] + ' + ' + ' + '.join(data.columns[9:18])
+        logger.info('Formula:\n\t\t' + fml)
+        logger.info('Groups: Census_Tract')
 
-result = model.fit()
-print(result.summary())
-print(dir(result))
+        model = sm.MixedLM.from_formula(fml,
+                                        data,
+                                        groups = data['Census_Tract'])
+    
+        result = model.fit()
+        logger.info('\n'*3 + str(result.summary()))
+
