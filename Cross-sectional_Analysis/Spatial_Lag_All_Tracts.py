@@ -9,7 +9,7 @@ shapefile = '../Dataset_MAIN/Listings_shp/MAIN_CT_All/ALL_TRACTS_ALL_DATA.shp'
 names_y = ['rent_aff_1', 'rent_aff_2', 'rent_aff_3', 'log_median_rent', 'log_median_house_price']
 
 x_columns = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 21, 23]  # 21 = Airbnb_all_rentals
-#x_columns = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 22, 23]  # 22 = Airbnb_active_rentals
+x_columns = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 22, 23]  # 22 = Airbnb_active_rentals
 
 
 
