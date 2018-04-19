@@ -1,10 +1,10 @@
-#<p style="text-align: center;"> Welcome to the AirBnB Spatial Econometrics project.</p>
+# Welcome to the AirBnB Spatial Econometrics project.
 
 
-##<p style="text-align: center;"> A thesis project by Sukanya Sharma</p>
-*<p style="text-align: center;">Master of Urban Planning</p>*
-*<p style="text-align: center;">Department of Urban and Regional Planning</p>*
-*<p style="text-align: center;">University of Illinois at Urbana-Champaign</p>* 
+## A thesis project by Sukanya Sharma.
+Master of Urban Planning
+Department of Urban and Regional Planning
+University of Illinois at Urbana-Champaign
 
 
 
