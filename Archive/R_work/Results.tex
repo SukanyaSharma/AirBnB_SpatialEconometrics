@@ -1,0 +1,118 @@
+\documentclass[10pt, letterpaper]{amsart}
+\usepackage{graphicx}
+\usepackage{pdfpages}
+
+\begin{document}
+
+
+
+\begin{table}[!htbp] \centering 
+  \caption{Basic regression model} 
+  \label{} 
+  \begin{tabular}{lccc} 
+    \\
+    [-1.8ex]        \hline \hline \hline \\
+    [-1.8ex]        & \multicolumn{2}{c}{\textit{Dependent variable:}} \\
+                                  \cline{2-3}\\     
+    \\[-1.8ex]      & rent\_burdened & rent\_overburdened\\ 
+                    \hline \\[-1.8ex] 
+    
+    log\_BART\_dist & $1.434^{***}$   & $1.234^{***}$       \\ 
+                    & $(0.440)$       & $(0.380)$           \\ 
+    & \\ 
+    log\_CBD\_dist  & $2.694^{***}$   & $1.189^{***}$       \\ 
+                    & $(0.450)$       & $(0.388)$           \\ 
+    & \\ 
+    log\_MHI        & $-16.576^{***}$ & $-11.784^{***}$     \\ 
+                    & $(0.905)$       & $(0.782)$           \\ 
+    & \\ 
+    coastal\_tracts\_dummy
+                    & $-6.300^*$      & $-2.404$            \\ 
+                    & $(3.333)$       & $(2.878)$           \\ 
+    & \\ 
+    percent\_airbnb.all\_rentals.
+                    & $0.053^{**}$    & $0.042^{**}$        \\ 
+                    & $(0.021)$       & $(0.018)$           \\ 
+    & \\ 
+    Constant        & $214.650^{***}$ & $145.406^{***}$     \\ 
+                    & $(9.708)$       & $(8.384)$           \\ 
+    & \\ 
+                    \hline \\[-1.8ex] 
+    Observations    & $649$           & $649$               \\ 
+    R$^{2}$         & $0.370$         & $0.272$             \\ 
+    Adjusted R$^{2}$
+                    & $0.365$         & $0.266$             \\ 
+    Residual Std. Error
+                    & $10.290$ (df = 643)
+                                      & $8.886$ (df=643)    \\                     
+    F Statistic     & $75.557^{***}$ (df = 5; 643)
+                                      & $47.982^{***}$ (df=5;643)
+                                                            \\ 
+                    \hline \hline \\[-1.8ex]
+    \textit{Note:}  & \multicolumn{2}{c}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+  \end{tabular} 
+\end{table}
+
+
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Thu, May 24, 2018 - 01:18:01 PM
+\begin{table}[!htbp] \centering 
+  \caption{Variance Inflation Factor -- test for multi-collinearity in variables} 
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}} ccccc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & log\_CBD\_dist & log\_MHI & coastal\_tracts\_dummy & percent\_airbnb.all\_rentals. \\ 
+    \hline \\[-1.8ex] 
+    $1.482$ & $1.355$ & $1.236$ & $1.033$ & $1.102$ \\ 
+    \hline \\[-1.8ex] 
+  \end{tabular} 
+\end{table}
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Thu, May 24, 2018 - 04:25:35 PM
+\begin{table}[!htbp] \centering 
+  \caption{OLS regression for formula \(Y\sim X\)} 
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}}lc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-2} 
+    \\[-1.8ex] & Y \\ 
+    \hline \\[-1.8ex] 
+    Xlog\_BART\_dist & 1.434$^{***}$ \\ 
+    & (0.440) \\ 
+    & \\ 
+    Xlog\_CBD\_dist & 2.694$^{***}$ \\ 
+    & (0.450) \\ 
+    & \\ 
+    Xlog\_MHI & $-$16.576$^{***}$ \\ 
+    & (0.905) \\ 
+    & \\ 
+    Xcoastal\_tracts\_dummy & $-$6.300$^{*}$ \\ 
+    & (3.333) \\ 
+    & \\ 
+    Xpercent\_airbnb.all\_rentals. & 0.053$^{**}$ \\ 
+    & (0.021) \\ 
+    & \\ 
+    Constant & 214.650$^{***}$ \\ 
+    & (9.708) \\ 
+    & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 649 \\ 
+    R$^{2}$ & 0.370 \\ 
+    Adjusted R$^{2}$ & 0.365 \\ 
+    Residual Std. Error & 10.290 (df = 643) \\ 
+    F Statistic & 75.557$^{***}$ (df = 5; 643) \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+  \end{tabular} 
+\end{table} 
+
+
+
+
+\end{document}
