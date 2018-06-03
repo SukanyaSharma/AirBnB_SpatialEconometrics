@@ -1,0 +1,1560 @@
+\documentclass[10pt, letterpaper]{amsart}
+\usepackage{pdfpages}
+\usepackage{float}
+
+\begin{document}
+
+\section{Rent Burdened, all\_rentals}
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jun 03, 2018 - 12:47:07 PM
+\begin{table}[H] \centering 
+  \caption{OLS regression RB all\_rentals} 
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}}lc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-2} 
+    \\[-1.8ex] & rent\_burdened \\ 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & 0.436 \\ 
+    & (0.462) \\ 
+    & \\ 
+    log\_CBD\_dist & 0.156 \\ 
+    & (0.480) \\ 
+    & \\ 
+    coastal\_tracts\_dummy & $-$4.371 \\ 
+    & (2.808) \\ 
+    & \\ 
+    percent\_unempl & 1.700$^{***}$ \\ 
+    & (0.170) \\ 
+    & \\ 
+    percent\_non\_white & 0.087$^{***}$ \\ 
+    & (0.029) \\ 
+    & \\ 
+    percent\_foreign\_born & 0.136$^{***}$ \\ 
+    & (0.042) \\ 
+    & \\ 
+    percent\_airbnb\_all\_rentals & $-$0.007 \\ 
+    & (0.024) \\ 
+    & \\ 
+    School\_district\_quality & $-$0.253$^{**}$ \\ 
+    & (0.110) \\ 
+    & \\ 
+    job\_acc\_auto & $-$0.00004$^{***}$ \\ 
+    & (0.00001) \\ 
+    & \\ 
+    job\_acc\_transit & 0.0001$^{*}$ \\ 
+    & (0.00003) \\ 
+    & \\ 
+    Constant & 35.496$^{***}$ \\ 
+    & (3.587) \\ 
+    & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 975 \\ 
+    R$^{2}$ & 0.210 \\ 
+    Adjusted R$^{2}$ & 0.201 \\ 
+    Residual Std. Error & 12.387 (df = 964) \\ 
+    F Statistic & 25.570$^{***}$ (df = 10; 964) \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+  \end{tabular} 
+\end{table}
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jun 03, 2018 - 12:55:47 PM
+\begin{table}[H] \centering 
+  \caption{Variance Inflation Factor RB all\_rentals} 
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}} cccccccccc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & log\_CBD\_dist & coastal\_tracts\_dummy & percent\_unempl & percent\_non\_white & percent\_foreign\_born & percent\_airbnb\_all\_rentals & School\_district\_quality & job\_acc\_auto & job\_acc\_transit \\ 
+    \hline \\[-1.8ex] 
+    $1.678$ & $1.672$ & $1.056$ & $1.251$ & $2.517$ & $2.152$ & $1.156$ & $1.045$ & $2.740$ & $2.458$ \\ 
+    \hline \\[-1.8ex] 
+  \end{tabular} 
+\end{table} 
+
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jun 03, 2018 - 01:14:23 PM
+\begin{table}[H] \centering 
+  \caption{Spatial lag model RB all\_rentals} 
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}}lc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-2} 
+    \\[-1.8ex] & rent\_burdened \\ 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & 0.451 \\ 
+    & (0.490) \\ 
+    & \\ 
+    log\_CBD\_dist & 0.163 \\ 
+    & (0.510) \\ 
+    & \\ 
+    coastal\_tracts\_dummy & $-$4.408 \\ 
+    & (2.789) \\ 
+    & \\ 
+    percent\_unempl & 1.682$^{***}$ \\ 
+    & (0.170) \\ 
+    & \\ 
+    percent\_non\_white & 0.086$^{***}$ \\ 
+    & (0.029) \\ 
+    & \\ 
+    percent\_foreign\_born & 0.138$^{***}$ \\ 
+    & (0.042) \\ 
+    & \\ 
+    percent\_airbnb\_all\_rentals & $-$0.004 \\ 
+    & (0.019) \\ 
+    & \\ 
+    School\_district\_quality & $-$0.247$^{**}$ \\ 
+    & (0.109) \\ 
+    & \\ 
+    job\_acc\_auto & $-$0.00004$^{***}$ \\ 
+    & (0.00001) \\ 
+    & \\ 
+    job\_acc\_transit & 0.0001$^{*}$ \\ 
+    & (0.00003) \\ 
+    & \\ 
+    Constant & 31.521$^{***}$ \\ 
+    & (4.172) \\ 
+    & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 975 \\ 
+    Log Likelihood & $-$3,830.286 \\ 
+    $\sigma^{2}$ & 151.112 \\ 
+    Akaike Inf. Crit. & 7,686.572 \\ 
+    Wald Test & 2.796$^{*}$ (df = 1) \\ 
+    LR Test & 2.772$^{*}$ (df = 1) \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+  \end{tabular} 
+\end{table} 
+
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jun 03, 2018 - 01:19:29 PM
+\begin{table}[H] \centering 
+  \caption{Spatial error model RB all\_rentals} 
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}}lc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-2} 
+    \\[-1.8ex] & rent\_burdened \\ 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & 0.466 \\ 
+    & (0.466) \\ 
+    & \\ 
+    log\_CBD\_dist & 0.198 \\ 
+    & (0.483) \\ 
+    & \\ 
+    coastal\_tracts\_dummy & $-$4.407 \\ 
+    & (2.803) \\ 
+    & \\ 
+    percent\_unempl & 1.675$^{***}$ \\ 
+    & (0.170) \\ 
+    & \\ 
+    percent\_non\_white & 0.092$^{***}$ \\ 
+    & (0.029) \\ 
+    & \\ 
+    percent\_foreign\_born & 0.136$^{***}$ \\ 
+    & (0.042) \\ 
+    & \\ 
+    percent\_airbnb\_all\_rentals & $-$0.003 \\ 
+    & (0.024) \\ 
+    & \\ 
+    School\_district\_quality & $-$0.249$^{**}$ \\ 
+    & (0.110) \\ 
+    & \\ 
+    job\_acc\_auto & $-$0.00004$^{***}$ \\ 
+    & (0.00001) \\ 
+    & \\ 
+    job\_acc\_transit & 0.0001$^{*}$ \\ 
+    & (0.00003) \\ 
+    & \\ 
+    Constant & 34.959$^{***}$ \\ 
+    & (3.604) \\ 
+    & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 975 \\ 
+    Log Likelihood & $-$3,829.995 \\ 
+    $\sigma^{2}$ & 150.958 \\ 
+    Akaike Inf. Crit. & 7,685.991 \\ 
+    Wald Test & 3.423$^{*}$ (df = 1) \\ 
+    LR Test & 3.354$^{*}$ (df = 1) \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+  \end{tabular} 
+\end{table}
+
+
+
+\newpage
+\section{Rent Burdened, active\_rentals}
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jun 03, 2018 - 01:26:59 PM
+\begin{table}[H] \centering 
+  \caption{ OLS regression RB active\_rentals} 
+  \label{}
+  \begin{tabular}{@{\extracolsep{5pt}}lc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-2} 
+    \\[-1.8ex] & rent\_burdened \\ 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & 0.437 \\ 
+    & (0.462) \\ 
+    & \\ 
+    log\_CBD\_dist & 0.151 \\ 
+    & (0.480) \\ 
+    & \\ 
+    coastal\_tracts\_dummy & $-$4.377 \\ 
+    & (2.808) \\ 
+    & \\ 
+    percent\_unempl & 1.701$^{***}$ \\ 
+    & (0.170) \\ 
+    & \\ 
+    percent\_non\_white & 0.087$^{***}$ \\ 
+    & (0.029) \\ 
+    & \\ 
+    percent\_foreign\_born & 0.136$^{***}$ \\ 
+    & (0.042) \\ 
+    & \\ 
+    percent\_airbnb\_active\_rentals & $-$0.006 \\ 
+    & (0.020) \\ 
+    & \\ 
+    School\_district\_quality & $-$0.254$^{**}$ \\ 
+    & (0.110) \\ 
+    & \\ 
+    job\_acc\_auto & $-$0.00004$^{***}$ \\ 
+    & (0.00001) \\ 
+    & \\ 
+    job\_acc\_transit & 0.0001$^{*}$ \\ 
+    & (0.00003) \\ 
+    & \\ 
+    Constant & 35.555$^{***}$ \\ 
+    & (3.605) \\ 
+    & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 975 \\ 
+    R$^{2}$ & 0.210 \\ 
+    Adjusted R$^{2}$ & 0.201 \\ 
+    Residual Std. Error & 12.387 (df = 964) \\ 
+    F Statistic & 25.573$^{***}$ (df = 10; 964) \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+  \end{tabular} 
+\end{table} 
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jun 03, 2018 - 01:33:41 PM
+\begin{table}[H] \centering 
+  \caption{Variance inflation factor RB active\_rentals} 
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}} cccccccccc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & log\_CBD\_dist & coastal\_tracts\_dummy & percent\_unempl & percent\_non\_white & percent\_foreign\_born & percent\_airbnb\_active\_rentals & School\_district\_quality & job\_acc\_auto & job\_acc\_transit \\ 
+    \hline \\[-1.8ex] 
+    $1.678$ & $1.669$ & $1.056$ & $1.250$ & $2.517$ & $2.152$ & $1.152$ & $1.044$ & $2.757$ & $2.470$ \\ 
+    \hline \\[-1.8ex] 
+  \end{tabular} 
+\end{table} 
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jun 03, 2018 - 01:35:17 PM
+\begin{table}[H] \centering 
+  \caption{Spatial lag model RB active\_rentals} 
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}}lc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-2} 
+    \\[-1.8ex] & rent\_burdened \\ 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & 0.452 \\ 
+    & (0.448) \\ 
+    & \\ 
+    log\_CBD\_dist & 0.155 \\ 
+    & (0.428) \\ 
+    & \\ 
+    coastal\_tracts\_dummy & $-$4.414 \\ 
+    & (2.771) \\ 
+    & \\ 
+    percent\_unempl & 1.683$^{***}$ \\ 
+    & (0.169) \\ 
+    & \\ 
+    percent\_non\_white & 0.086$^{***}$ \\ 
+    & (0.028) \\ 
+    & \\ 
+    percent\_foreign\_born & 0.138$^{***}$ \\ 
+    & (0.042) \\ 
+    & \\ 
+    percent\_airbnb\_active\_rentals & $-$0.005 \\ 
+    & (0.019) \\ 
+    & \\ 
+    School\_district\_quality & $-$0.248$^{**}$ \\ 
+    & (0.109) \\ 
+    & \\ 
+    job\_acc\_auto & $-$0.00004$^{***}$ \\ 
+    & (0.00001) \\ 
+    & \\ 
+    job\_acc\_transit & 0.0001$^{*}$ \\ 
+    & (0.00003) \\ 
+    & \\ 
+    Constant & 31.595$^{***}$ \\ 
+    & (4.319) \\ 
+    & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 975 \\ 
+    Log Likelihood & $-$3,830.273 \\ 
+    $\sigma^{2}$ & 151.108 \\ 
+    Akaike Inf. Crit. & 7,686.547 \\ 
+    Wald Test & 2.807$^{*}$ (df = 1) \\ 
+    LR Test & 2.772$^{*}$ (df = 1) \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+  \end{tabular} 
+\end{table} 
+
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jun 03, 2018 - 01:36:09 PM
+\begin{table}[H] \centering 
+  \caption{Spatial error model RB active\_rentals} 
+  \label{}
+  \begin{tabular}{@{\extracolsep{5pt}}lc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-2} 
+    \\[-1.8ex] & rent\_burdened \\ 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & 0.466 \\ 
+    & (0.466) \\ 
+    & \\ 
+    log\_CBD\_dist & 0.198 \\ 
+    & (0.483) \\ 
+    & \\ 
+    coastal\_tracts\_dummy & $-$4.407 \\ 
+    & (2.803) \\ 
+    & \\ 
+    percent\_unempl & 1.675$^{***}$ \\ 
+    & (0.170) \\ 
+    & \\ 
+    percent\_non\_white & 0.092$^{***}$ \\ 
+    & (0.029) \\ 
+    & \\ 
+    percent\_foreign\_born & 0.136$^{***}$ \\ 
+    & (0.042) \\ 
+    & \\ 
+    percent\_airbnb\_all\_rentals & $-$0.003 \\ 
+    & (0.024) \\ 
+    & \\ 
+    School\_district\_quality & $-$0.249$^{**}$ \\ 
+    & (0.110) \\ 
+    & \\ 
+    job\_acc\_auto & $-$0.00004$^{***}$ \\ 
+    & (0.00001) \\ 
+    & \\ 
+    job\_acc\_transit & 0.0001$^{*}$ \\ 
+    & (0.00003) \\ 
+    & \\ 
+    Constant & 34.959$^{***}$ \\ 
+    & (3.604) \\ 
+    & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 975 \\ 
+    Log Likelihood & $-$3,829.995 \\ 
+    $\sigma^{2}$ & 150.958 \\ 
+    Akaike Inf. Crit. & 7,685.991 \\ 
+    Wald Test & 3.423$^{*}$ (df = 1) \\ 
+    LR Test & 3.354$^{*}$ (df = 1) \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+  \end{tabular} 
+\end{table} 
+
+
+
+\newpage
+\section{Rent OverBurdened, all\_rentals}
+
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jun 03, 2018 - 01:53:18 PM
+\begin{table}[H] \centering 
+  \caption{OLS Regression ROB all\_rentals} 
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}}lc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-2} 
+    \\[-1.8ex] & rent\_overburdened \\ 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & 0.635$^{*}$ \\ 
+    & (0.363) \\ 
+    & \\ 
+    log\_CBD\_dist & $-$0.807$^{**}$ \\ 
+    & (0.377) \\ 
+    & \\ 
+    coastal\_tracts\_dummy & $-$3.382 \\ 
+    & (2.204) \\ 
+    & \\ 
+    percent\_unempl & 1.515$^{***}$ \\ 
+    & (0.134) \\ 
+    & \\ 
+    percent\_non\_white & 0.045$^{**}$ \\ 
+    & (0.023) \\ 
+    & \\ 
+    percent\_foreign\_born & 0.086$^{***}$ \\ 
+    & (0.033) \\ 
+    & \\ 
+    percent\_airbnb\_all\_rentals & 0.004 \\ 
+    & (0.019) \\ 
+    & \\ 
+    School\_district\_quality & $-$0.202$^{**}$ \\ 
+    & (0.086) \\ 
+    & \\ 
+    job\_acc\_auto & $-$0.00002$^{***}$ \\ 
+    & (0.00001) \\ 
+    & \\ 
+    job\_acc\_transit & 0.00003 \\ 
+    & (0.00002) \\ 
+    & \\ 
+    Constant & 17.478$^{***}$ \\ 
+    & (2.816) \\ 
+    & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 975 \\ 
+    R$^{2}$ & 0.195 \\ 
+    Adjusted R$^{2}$ & 0.187 \\ 
+    Residual Std. Error & 9.724 (df = 964) \\ 
+    F Statistic & 23.357$^{***}$ (df = 10; 964) \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+  \end{tabular} 
+\end{table} 
+
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jun 03, 2018 - 01:53:18 PM
+\begin{table}[H] \centering 
+  \caption{Variance inflation factor ROB all\_rentals} 
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}} cccccccccc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & log\_CBD\_dist & coastal\_tracts\_dummy & percent\_unempl & percent\_non\_white & percent\_foreign\_born & percent\_airbnb\_all\_rentals & School\_district\_quality & job\_acc\_auto & job\_acc\_transit \\ 
+    \hline \\[-1.8ex] 
+    $1.678$ & $1.672$ & $1.056$ & $1.251$ & $2.517$ & $2.152$ & $1.156$ & $1.045$ & $2.740$ & $2.458$ \\ 
+    \hline \\[-1.8ex] 
+  \end{tabular} 
+\end{table} 
+
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jun 03, 2018 - 01:53:25 PM
+\begin{table}[H] \centering 
+  \caption{Spatial lag model ROB all\_rentals}
+  \label{}
+  \begin{tabular}{@{\extracolsep{5pt}}lc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-2} 
+    \\[-1.8ex] & rent\_overburdened \\ 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & 0.636$^{*}$ \\ 
+    & (0.359) \\ 
+    & \\ 
+    log\_CBD\_dist & $-$0.803$^{**}$ \\ 
+    & (0.375) \\ 
+    & \\ 
+    coastal\_tracts\_dummy & $-$3.378 \\ 
+    & (2.196) \\ 
+    & \\ 
+    percent\_unempl & 1.512$^{***}$ \\ 
+    & (0.133) \\ 
+    & \\ 
+    percent\_non\_white & 0.044$^{*}$ \\ 
+    & (0.023) \\ 
+    & \\ 
+    percent\_foreign\_born & 0.087$^{***}$ \\ 
+    & (0.033) \\ 
+    & \\ 
+    percent\_airbnb\_all\_rentals & 0.005 \\ 
+    & (0.021) \\ 
+    & \\ 
+    School\_district\_quality & $-$0.199$^{**}$ \\ 
+    & (0.086) \\ 
+    & \\ 
+    job\_acc\_auto & $-$0.00002$^{***}$ \\ 
+    & (0.00001) \\ 
+    & \\ 
+    job\_acc\_transit & 0.00003 \\ 
+    & (0.00002) \\ 
+    & \\ 
+    Constant & 16.756$^{***}$ \\ 
+    & (3.135) \\ 
+    & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 975 \\ 
+    Log Likelihood & $-$3,595.503 \\ 
+    $\sigma^{2}$ & 93.446 \\ 
+    Akaike Inf. Crit. & 7,217.005 \\ 
+    Wald Test & 0.327 (df = 1) \\ 
+    LR Test & 0.333 (df = 1) \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+  \end{tabular} 
+\end{table} 
+
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jun 03, 2018 - 01:53:29 PM
+\begin{table}[H] \centering 
+  \caption{Spatial error model ROB all\_rentals}
+  \label{}
+  \begin{tabular}{@{\extracolsep{5pt}}lc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-2} 
+    \\[-1.8ex] & rent\_overburdened \\ 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & 0.640$^{*}$ \\ 
+    & (0.362) \\ 
+    & \\ 
+    log\_CBD\_dist & $-$0.804$^{**}$ \\ 
+    & (0.376) \\ 
+    & \\ 
+    coastal\_tracts\_dummy & $-$3.376 \\ 
+    & (2.195) \\ 
+    & \\ 
+    percent\_unempl & 1.514$^{***}$ \\ 
+    & (0.133) \\ 
+    & \\ 
+    percent\_non\_white & 0.045$^{**}$ \\ 
+    & (0.022) \\ 
+    & \\ 
+    percent\_foreign\_born & 0.087$^{***}$ \\ 
+    & (0.033) \\ 
+    & \\ 
+    percent\_airbnb\_all\_rentals & 0.005 \\ 
+    & (0.019) \\ 
+    & \\ 
+    School\_district\_quality & $-$0.200$^{**}$ \\ 
+    & (0.086) \\ 
+    & \\ 
+    job\_acc\_auto & $-$0.00002$^{***}$ \\ 
+    & (0.00001) \\ 
+    & \\ 
+    job\_acc\_transit & 0.00003 \\ 
+    & (0.00002) \\ 
+    & \\ 
+    Constant & 17.387$^{***}$ \\ 
+    & (2.807) \\ 
+    & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 975 \\ 
+    Log Likelihood & $-$3,595.603 \\ 
+    $\sigma^{2}$ & 93.472 \\ 
+    Akaike Inf. Crit. & 7,217.207 \\ 
+    Wald Test & 0.145 (df = 1) \\ 
+    LR Test & 0.131 (df = 1) \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+  \end{tabular} 
+\end{table} 
+
+
+
+
+\newpage
+\section{Rent OverBurdened, active\_rentals}
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jun 03, 2018 - 01:54:02 PM
+\begin{table}[H] \centering 
+  \caption{OLS regression ROB active\_rentals}
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}}lc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-2} 
+    \\[-1.8ex] & rent\_overburdened \\ 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & 0.638$^{*}$ \\ 
+    & (0.363) \\ 
+    & \\ 
+    log\_CBD\_dist & $-$0.818$^{**}$ \\ 
+    & (0.377) \\ 
+    & \\ 
+    coastal\_tracts\_dummy & $-$3.389 \\ 
+    & (2.204) \\ 
+    & \\ 
+    percent\_unempl & 1.515$^{***}$ \\ 
+    & (0.134) \\ 
+    & \\ 
+    percent\_non\_white & 0.045$^{**}$ \\ 
+    & (0.023) \\ 
+    & \\ 
+    percent\_foreign\_born & 0.086$^{***}$ \\ 
+    & (0.033) \\ 
+    & \\ 
+    percent\_airbnb\_active\_rentals & 0.002 \\ 
+    & (0.016) \\ 
+    & \\ 
+    School\_district\_quality & $-$0.201$^{**}$ \\ 
+    & (0.086) \\ 
+    & \\ 
+    job\_acc\_auto & $-$0.00002$^{***}$ \\ 
+    & (0.00001) \\ 
+    & \\ 
+    job\_acc\_transit & 0.00003 \\ 
+    & (0.00002) \\ 
+    & \\ 
+    Constant & 17.550$^{***}$ \\ 
+    & (2.830) \\ 
+    & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 975 \\ 
+    R$^{2}$ & 0.195 \\ 
+    Adjusted R$^{2}$ & 0.187 \\ 
+    Residual Std. Error & 9.724 (df = 964) \\ 
+    F Statistic & 23.353$^{***}$ (df = 10; 964) \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+  \end{tabular} 
+\end{table} 
+
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jun 03, 2018 - 01:54:02 PM
+\begin{table}[H] \centering 
+  \caption{Variance inflation factor ROB active\_rentals} 
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}} cccccccccc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & log\_CBD\_dist & coastal\_tracts\_dummy & percent\_unempl & percent\_non\_white & percent\_foreign\_born & percent\_airbnb\_active\_rentals & School\_district\_quality & job\_acc\_auto & job\_acc\_transit \\ 
+    \hline \\[-1.8ex] 
+    $1.678$ & $1.669$ & $1.056$ & $1.250$ & $2.517$ & $2.152$ & $1.152$ & $1.044$ & $2.757$ & $2.470$ \\ 
+    \hline \\[-1.8ex] 
+  \end{tabular} 
+\end{table} 
+
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jun 03, 2018 - 01:54:09 PM
+\begin{table}[H] \centering 
+  \caption{Spatial lag model ROB active\_rentals} 
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}}lc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-2} 
+    \\[-1.8ex] & rent\_overburdened \\ 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & 0.639$^{*}$ \\ 
+    & (0.359) \\ 
+    & \\ 
+    log\_CBD\_dist & $-$0.816$^{**}$ \\ 
+    & (0.364) \\ 
+    & \\ 
+    coastal\_tracts\_dummy & $-$3.386 \\ 
+    & (2.190) \\ 
+    & \\ 
+    percent\_unempl & 1.511$^{***}$ \\ 
+    & (0.133) \\ 
+    & \\ 
+    percent\_non\_white & 0.044$^{**}$ \\ 
+    & (0.022) \\ 
+    & \\ 
+    percent\_foreign\_born & 0.087$^{***}$ \\ 
+    & (0.033) \\ 
+    & \\ 
+    percent\_airbnb\_active\_rentals & 0.002 \\ 
+    & (0.010) \\ 
+    & \\ 
+    School\_district\_quality & $-$0.198$^{**}$ \\ 
+    & (0.086) \\ 
+    & \\ 
+    job\_acc\_auto & $-$0.00002$^{***}$ \\ 
+    & (0.00001) \\ 
+    & \\ 
+    job\_acc\_transit & 0.00003 \\ 
+    & (0.00002) \\ 
+    & \\ 
+    Constant & 16.854$^{***}$ \\ 
+    & (2.995) \\ 
+    & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 975 \\ 
+    Log Likelihood & $-$3,595.527 \\ 
+    $\sigma^{2}$ & 93.451 \\ 
+    Akaike Inf. Crit. & 7,217.053 \\ 
+    Wald Test & 0.356 (df = 1) \\ 
+    LR Test & 0.319 (df = 1) \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+  \end{tabular} 
+\end{table} 
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jun 03, 2018 - 01:54:13 PM
+\begin{table}[H] \centering 
+  \caption{Spatial error model ROB active\_rentals}
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}}lc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-2} 
+    \\[-1.8ex] & rent\_overburdened \\ 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & 0.640$^{*}$ \\ 
+    & (0.362) \\ 
+    & \\ 
+    log\_CBD\_dist & $-$0.804$^{**}$ \\ 
+    & (0.376) \\ 
+    & \\ 
+    coastal\_tracts\_dummy & $-$3.376 \\ 
+    & (2.195) \\ 
+    & \\ 
+    percent\_unempl & 1.514$^{***}$ \\ 
+    & (0.133) \\ 
+    & \\ 
+    percent\_non\_white & 0.045$^{**}$ \\ 
+    & (0.022) \\ 
+    & \\ 
+    percent\_foreign\_born & 0.087$^{***}$ \\ 
+    & (0.033) \\ 
+    & \\ 
+    percent\_airbnb\_all\_rentals & 0.005 \\ 
+    & (0.019) \\ 
+    & \\ 
+    School\_district\_quality & $-$0.200$^{**}$ \\ 
+    & (0.086) \\ 
+    & \\ 
+    job\_acc\_auto & $-$0.00002$^{***}$ \\ 
+    & (0.00001) \\ 
+    & \\ 
+    job\_acc\_transit & 0.00003 \\ 
+    & (0.00002) \\ 
+    & \\ 
+    Constant & 17.387$^{***}$ \\ 
+    & (2.807) \\ 
+    & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 975 \\ 
+    Log Likelihood & $-$3,595.603 \\ 
+    $\sigma^{2}$ & 93.472 \\ 
+    Akaike Inf. Crit. & 7,217.207 \\ 
+    Wald Test & 0.145 (df = 1) \\ 
+    LR Test & 0.131 (df = 1) \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+  \end{tabular} 
+\end{table} 
+
+
+
+
+\newpage
+\section{Rent HourlyWage, all\_rentals}
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jun 03, 2018 - 02:19:40 PM
+\begin{table}[H] \centering 
+  \caption{OLS Regression RHW all\_rentals}
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}}lc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-2} 
+    \\[-1.8ex] & rent\_hourly\_wage \\ 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & 1.389$^{***}$ \\ 
+    & (0.251) \\ 
+    & \\ 
+    log\_CBD\_dist & $-$2.506$^{***}$ \\ 
+    & (0.261) \\ 
+    & \\ 
+    coastal\_tracts\_dummy & 1.719 \\ 
+    & (1.527) \\ 
+    & \\ 
+    percent\_unempl & $-$0.158$^{*}$ \\ 
+    & (0.093) \\ 
+    & \\ 
+    percent\_non\_white & $-$0.064$^{***}$ \\ 
+    & (0.016) \\ 
+    & \\ 
+    percent\_foreign\_born & 0.164$^{***}$ \\ 
+    & (0.023) \\ 
+    & \\ 
+    percent\_airbnb\_all\_rentals & 0.030$^{**}$ \\ 
+    & (0.013) \\ 
+    & \\ 
+    School\_district\_quality & $-$0.007 \\ 
+    & (0.060) \\ 
+    & \\ 
+    job\_acc\_auto & 0.00003$^{***}$ \\ 
+    & (0.00000) \\ 
+    & \\ 
+    job\_acc\_transit & $-$0.0001$^{***}$ \\ 
+    & (0.00002) \\ 
+    & \\ 
+    Constant & 16.597$^{***}$ \\ 
+    & (1.951) \\ 
+    & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 975 \\ 
+    R$^{2}$ & 0.251 \\ 
+    Adjusted R$^{2}$ & 0.243 \\ 
+    Residual Std. Error & 6.736 (df = 964) \\ 
+    F Statistic & 32.340$^{***}$ (df = 10; 964) \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+  \end{tabular} 
+\end{table} 
+
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jun 03, 2018 - 02:19:40 PM
+\begin{table}[H] \centering 
+  \caption{Variance inflation factor RHW all\_rentals} 
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}} cccccccccc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & log\_CBD\_dist & coastal\_tracts\_dummy & percent\_unempl & percent\_non\_white & percent\_foreign\_born & percent\_airbnb\_all\_rentals & School\_district\_quality & job\_acc\_auto & job\_acc\_transit \\ 
+    \hline \\[-1.8ex] 
+    $1.678$ & $1.672$ & $1.056$ & $1.251$ & $2.517$ & $2.152$ & $1.156$ & $1.045$ & $2.740$ & $2.458$ \\ 
+    \hline \\[-1.8ex] 
+  \end{tabular} 
+\end{table} 
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jun 03, 2018 - 02:19:49 PM
+\begin{table}[H] \centering 
+  \caption{Spatial lag model RHW all\_rentals} 
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}}lc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-2} 
+    \\[-1.8ex] & rent\_hourly\_wage \\ 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & 1.002$^{***}$ \\ 
+    & (0.240) \\ 
+    & \\ 
+    log\_CBD\_dist & $-$2.276$^{***}$ \\ 
+    & (0.247) \\ 
+    & \\ 
+    coastal\_tracts\_dummy & 1.798 \\ 
+    & (1.441) \\ 
+    & \\ 
+    percent\_unempl & $-$0.126 \\ 
+    & (0.087) \\ 
+    & \\ 
+    percent\_non\_white & $-$0.055$^{***}$ \\ 
+    & (0.015) \\ 
+    & \\ 
+    percent\_foreign\_born & 0.137$^{***}$ \\ 
+    & (0.022) \\ 
+    & \\ 
+    percent\_airbnb\_all\_rentals & 0.028$^{**}$ \\ 
+    & (0.012) \\ 
+    & \\ 
+    School\_district\_quality & 0.023 \\ 
+    & (0.060) \\ 
+    & \\ 
+    job\_acc\_auto & 0.00003$^{***}$ \\ 
+    & (0.00000) \\ 
+    & \\ 
+    job\_acc\_transit & $-$0.00005$^{***}$ \\ 
+    & (0.00002) \\ 
+    & \\ 
+    Constant & 11.863$^{***}$ \\ 
+    & (1.900) \\ 
+    & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 975 \\ 
+    Log Likelihood & $-$3,195.593 \\ 
+    $\sigma^{2}$ & 40.082 \\ 
+    Akaike Inf. Crit. & 6,417.185 \\ 
+    Wald Test & 94.890$^{***}$ (df = 1) \\ 
+    LR Test & 84.379$^{***}$ (df = 1) \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+  \end{tabular} 
+\end{table} 
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jun 03, 2018 - 02:19:53 PM
+\begin{table}[H] \centering 
+  \caption{Spatial error model RHW all\_rentals} 
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}}lc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-2} 
+    \\[-1.8ex] & rent\_hourly\_wage \\ 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & 0.943$^{***}$ \\ 
+    & (0.250) \\ 
+    & \\ 
+    log\_CBD\_dist & $-$2.440$^{***}$ \\ 
+    & (0.258) \\ 
+    & \\ 
+    coastal\_tracts\_dummy & 1.860 \\ 
+    & (1.461) \\ 
+    & \\ 
+    percent\_unempl & $-$0.129 \\ 
+    & (0.089) \\ 
+    & \\ 
+    percent\_non\_white & $-$0.056$^{***}$ \\ 
+    & (0.015) \\ 
+    & \\ 
+    percent\_foreign\_born & 0.135$^{***}$ \\ 
+    & (0.022) \\ 
+    & \\ 
+    percent\_airbnb\_all\_rentals & 0.024$^{*}$ \\ 
+    & (0.012) \\ 
+    & \\ 
+    School\_district\_quality & 0.025 \\ 
+    & (0.057) \\ 
+    & \\ 
+    job\_acc\_auto & 0.00003$^{***}$ \\ 
+    & (0.00000) \\ 
+    & \\ 
+    job\_acc\_transit & $-$0.0001$^{***}$ \\ 
+    & (0.00002) \\ 
+    & \\ 
+    Constant & 19.422$^{***}$ \\ 
+    & (1.927) \\ 
+    & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 975 \\ 
+    Log Likelihood & $-$3,202.409 \\ 
+    $\sigma^{2}$ & 40.511 \\ 
+    Akaike Inf. Crit. & 6,430.819 \\ 
+    Wald Test & 83.323$^{***}$ (df = 1) \\ 
+    LR Test & 70.746$^{***}$ (df = 1) \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+  \end{tabular} 
+\end{table} 
+
+
+
+\section{Rent HourlyWage, active\_rentals}
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jun 03, 2018 - 02:20:23 PM
+\begin{table}[H] \centering 
+  \caption{OLS regression RHW active\_rentals} 
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}}lc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-2} 
+    \\[-1.8ex] & rent\_hourly\_wage \\ 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & 1.397$^{***}$ \\ 
+    & (0.252) \\ 
+    & \\ 
+    log\_CBD\_dist & $-$2.536$^{***}$ \\ 
+    & (0.261) \\ 
+    & \\ 
+    coastal\_tracts\_dummy & 1.706 \\ 
+    & (1.528) \\ 
+    & \\ 
+    percent\_unempl & $-$0.162$^{*}$ \\ 
+    & (0.093) \\ 
+    & \\ 
+    percent\_non\_white & $-$0.064$^{***}$ \\ 
+    & (0.016) \\ 
+    & \\ 
+    percent\_foreign\_born & 0.164$^{***}$ \\ 
+    & (0.023) \\ 
+    & \\ 
+    percent\_airbnb\_active\_rentals & 0.021$^{*}$ \\ 
+    & (0.011) \\ 
+    & \\ 
+    School\_district\_quality & $-$0.003 \\ 
+    & (0.060) \\ 
+    & \\ 
+    job\_acc\_auto & 0.00003$^{***}$ \\ 
+    & (0.00000) \\ 
+    & \\ 
+    job\_acc\_transit & $-$0.0001$^{***}$ \\ 
+    & (0.00002) \\ 
+    & \\ 
+    Constant & 16.725$^{***}$ \\ 
+    & (1.962) \\ 
+    & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 975 \\ 
+    R$^{2}$ & 0.250 \\ 
+    Adjusted R$^{2}$ & 0.242 \\ 
+    Residual Std. Error & 6.742 (df = 964) \\ 
+    F Statistic & 32.119$^{***}$ (df = 10; 964) \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+  \end{tabular} 
+\end{table} 
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jun 03, 2018 - 02:20:23 PM
+\begin{table}[H] \centering 
+  \caption{Variance inflation factor RHW active\_rentals} 
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}} cccccccccc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & log\_CBD\_dist & coastal\_tracts\_dummy & percent\_unempl & percent\_non\_white & percent\_foreign\_born & percent\_airbnb\_active\_rentals & School\_district\_quality & job\_acc\_auto & job\_acc\_transit \\ 
+    \hline \\[-1.8ex] 
+    $1.678$ & $1.669$ & $1.056$ & $1.250$ & $2.517$ & $2.152$ & $1.152$ & $1.044$ & $2.757$ & $2.470$ \\ 
+    \hline \\[-1.8ex] 
+  \end{tabular} 
+\end{table} 
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jun 03, 2018 - 02:20:31 PM
+\begin{table}[H] \centering 
+  \caption{Spatial lag model RHW active\_rentals} 
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}}lc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-2} 
+    \\[-1.8ex] & rent\_hourly\_wage \\ 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & 1.009$^{***}$ \\ 
+    & (0.240) \\ 
+    & \\ 
+    log\_CBD\_dist & $-$2.306$^{***}$ \\ 
+    & (0.246) \\ 
+    & \\ 
+    coastal\_tracts\_dummy & 1.785 \\ 
+    & (1.439) \\ 
+    & \\ 
+    percent\_unempl & $-$0.130 \\ 
+    & (0.087) \\ 
+    & \\ 
+    percent\_non\_white & $-$0.055$^{***}$ \\ 
+    & (0.015) \\ 
+    & \\ 
+    percent\_foreign\_born & 0.137$^{***}$ \\ 
+    & (0.022) \\ 
+    & \\ 
+    percent\_airbnb\_active\_rentals & 0.019$^{*}$ \\ 
+    & (0.010) \\ 
+    & \\ 
+    School\_district\_quality & 0.027 \\ 
+    & (0.056) \\ 
+    & \\ 
+    job\_acc\_auto & 0.00003$^{***}$ \\ 
+    & (0.00000) \\ 
+    & \\ 
+    job\_acc\_transit & $-$0.00005$^{***}$ \\ 
+    & (0.00002) \\ 
+    & \\ 
+    Constant & 11.997$^{***}$ \\ 
+    & (1.905) \\ 
+    & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 975 \\ 
+    Log Likelihood & $-$3,196.451 \\ 
+    $\sigma^{2}$ & 40.152 \\ 
+    Akaike Inf. Crit. & 6,418.901 \\ 
+    Wald Test & 94.932$^{***}$ (df = 1) \\ 
+    LR Test & 84.337$^{***}$ (df = 1) \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+  \end{tabular} 
+\end{table} 
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jun 03, 2018 - 02:20:36 PM
+\begin{table}[H] \centering 
+  \caption{Spatial error model RHW active\_rentals} 
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}}lc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-2} 
+    \\[-1.8ex] & rent\_hourly\_wage \\ 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & 0.943$^{***}$ \\ 
+    & (0.250) \\ 
+    & \\ 
+    log\_CBD\_dist & $-$2.440$^{***}$ \\ 
+    & (0.258) \\ 
+    & \\ 
+    coastal\_tracts\_dummy & 1.860 \\ 
+    & (1.461) \\ 
+    & \\ 
+    percent\_unempl & $-$0.129 \\ 
+    & (0.089) \\ 
+    & \\ 
+    percent\_non\_white & $-$0.056$^{***}$ \\ 
+    & (0.015) \\ 
+    & \\ 
+    percent\_foreign\_born & 0.135$^{***}$ \\ 
+    & (0.022) \\ 
+    & \\ 
+    percent\_airbnb\_all\_rentals & 0.024$^{*}$ \\ 
+    & (0.012) \\ 
+    & \\ 
+    School\_district\_quality & 0.025 \\ 
+    & (0.057) \\ 
+    & \\ 
+    job\_acc\_auto & 0.00003$^{***}$ \\ 
+    & (0.00000) \\ 
+    & \\ 
+    job\_acc\_transit & $-$0.0001$^{***}$ \\ 
+    & (0.00002) \\ 
+    & \\ 
+    Constant & 19.422$^{***}$ \\ 
+    & (1.927) \\ 
+    & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 975 \\ 
+    Log Likelihood & $-$3,202.409 \\ 
+    $\sigma^{2}$ & 40.511 \\ 
+    Akaike Inf. Crit. & 6,430.819 \\ 
+    Wald Test & 83.323$^{***}$ (df = 1) \\ 
+    LR Test & 70.746$^{***}$ (df = 1) \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+  \end{tabular} 
+\end{table} 
+
+
+\section{Log Median Rent, all\_rentals}
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jun 03, 2018 - 02:40:43 PM
+\begin{table}[H] \centering 
+  \caption{OLS regression LMR all\_rentals} 
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}}lc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-2} 
+    \\[-1.8ex] & log\_median\_rent \\ 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & 0.049$^{***}$ \\ 
+    & (0.011) \\ 
+    & \\ 
+    log\_CBD\_dist & 0.062$^{***}$ \\ 
+    & (0.011) \\ 
+    & \\ 
+    coastal\_tracts\_dummy & $-$0.034 \\ 
+    & (0.066) \\ 
+    & \\ 
+    percent\_unempl & $-$0.013$^{***}$ \\ 
+    & (0.004) \\ 
+    & \\ 
+    percent\_non\_white & $-$0.004$^{***}$ \\ 
+    & (0.001) \\ 
+    & \\ 
+    percent\_foreign\_born & 0.002$^{**}$ \\ 
+    & (0.001) \\ 
+    & \\ 
+    percent\_airbnb\_all\_rentals & 0.002$^{***}$ \\ 
+    & (0.001) \\ 
+    & \\ 
+    School\_district\_quality & 0.007$^{***}$ \\ 
+    & (0.003) \\ 
+    & \\ 
+    job\_acc\_auto & 0.00000$^{***}$ \\ 
+    & (0.00000) \\ 
+    & \\ 
+    job\_acc\_transit & $-$0.00000$^{***}$ \\ 
+    & (0.00000) \\ 
+    & \\ 
+    Constant & 6.838$^{***}$ \\ 
+    & (0.085) \\ 
+    & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 975 \\ 
+    R$^{2}$ & 0.187 \\ 
+    Adjusted R$^{2}$ & 0.179 \\ 
+    Residual Std. Error & 0.293 (df = 964) \\ 
+    F Statistic & 22.201$^{***}$ (df = 10; 964) \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+  \end{tabular} 
+\end{table} 
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jun 03, 2018 - 02:40:43 PM
+\begin{table}[H] \centering 
+  \caption{Variance inflation factor LMR all\_rentals} 
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}} cccccccccc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & log\_CBD\_dist & coastal\_tracts\_dummy & percent\_unempl & percent\_non\_white & percent\_foreign\_born & percent\_airbnb\_all\_rentals & School\_district\_quality & job\_acc\_auto & job\_acc\_transit \\ 
+    \hline \\[-1.8ex] 
+    $1.678$ & $1.672$ & $1.056$ & $1.251$ & $2.517$ & $2.152$ & $1.156$ & $1.045$ & $2.740$ & $2.458$ \\ 
+    \hline \\[-1.8ex] 
+  \end{tabular} 
+\end{table}
+
+ 
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jun 03, 2018 - 02:40:52 PM
+\begin{table}[H] \centering 
+  \caption{Spatial lag model LMR all\_rentals} 
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}}lc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-2} 
+    \\[-1.8ex] & log\_median\_rent \\ 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & 0.048$^{***}$ \\ 
+    & (0.011) \\ 
+    & \\ 
+    log\_CBD\_dist & 0.059$^{***}$ \\ 
+    & (0.011) \\ 
+    & \\ 
+    coastal\_tracts\_dummy & $-$0.020 \\ 
+    & (0.061) \\ 
+    & \\ 
+    percent\_unempl & $-$0.012$^{***}$ \\ 
+    & (0.004) \\ 
+    & \\ 
+    percent\_non\_white & $-$0.004$^{***}$ \\ 
+    & (0.001) \\ 
+    & \\ 
+    percent\_foreign\_born & 0.002$^{**}$ \\ 
+    & (0.001) \\ 
+    & \\ 
+    percent\_airbnb\_all\_rentals & 0.002$^{***}$ \\ 
+    & (0.001) \\ 
+    & \\ 
+    School\_district\_quality & 0.007$^{***}$ \\ 
+    & (0.003) \\ 
+    & \\ 
+    job\_acc\_auto & 0.00000$^{***}$ \\ 
+    & (0.00000) \\ 
+    & \\ 
+    job\_acc\_transit & $-$0.00000$^{***}$ \\ 
+    & (0.00000) \\ 
+    & \\ 
+    Constant & 5.628$^{***}$ \\ 
+    & (0.349) \\ 
+    & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 975 \\ 
+    Log Likelihood & $-$175.377 \\ 
+    $\sigma^{2}$ & 0.084 \\ 
+    Akaike Inf. Crit. & 376.754 \\ 
+    Wald Test & 12.756$^{***}$ (df = 1) \\ 
+    LR Test & 12.371$^{***}$ (df = 1) \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+  \end{tabular} 
+\end{table} 
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jun 03, 2018 - 02:40:57 PM
+\begin{table}[H] \centering 
+  \caption{Spatial error model LMR all\_rentals} 
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}}lc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-2} 
+    \\[-1.8ex] & log\_median\_rent \\ 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & 0.049$^{***}$ \\ 
+    & (0.011) \\ 
+    & \\ 
+    log\_CBD\_dist & 0.059$^{***}$ \\ 
+    & (0.011) \\ 
+    & \\ 
+    coastal\_tracts\_dummy & $-$0.013 \\ 
+    & (0.066) \\ 
+    & \\ 
+    percent\_unempl & $-$0.012$^{***}$ \\ 
+    & (0.004) \\ 
+    & \\ 
+    percent\_non\_white & $-$0.004$^{***}$ \\ 
+    & (0.001) \\ 
+    & \\ 
+    percent\_foreign\_born & 0.002$^{**}$ \\ 
+    & (0.001) \\ 
+    & \\ 
+    percent\_airbnb\_all\_rentals & 0.002$^{***}$ \\ 
+    & (0.001) \\ 
+    & \\ 
+    School\_district\_quality & 0.007$^{***}$ \\ 
+    & (0.003) \\ 
+    & \\ 
+    job\_acc\_auto & 0.00000$^{***}$ \\ 
+    & (0.00000) \\ 
+    & \\ 
+    job\_acc\_transit & $-$0.00000$^{***}$ \\ 
+    & (0.00000) \\ 
+    & \\ 
+    Constant & 6.856$^{***}$ \\ 
+    & (0.086) \\ 
+    & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 975 \\ 
+    Log Likelihood & $-$175.683 \\ 
+    $\sigma^{2}$ & 0.084 \\ 
+    Akaike Inf. Crit. & 377.366 \\ 
+    Wald Test & 12.240$^{***}$ (df = 1) \\ 
+    LR Test & 11.760$^{***}$ (df = 1) \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+  \end{tabular} 
+\end{table} 
+
+
+\section{Log Median Rent, active\_rentals}
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jun 03, 2018 - 02:41:28 PM
+\begin{table}[H] \centering 
+  \caption{OLS regression LMR active\_rentals} 
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}}lc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-2} 
+    \\[-1.8ex] & log\_median\_rent \\ 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & 0.049$^{***}$ \\ 
+    & (0.011) \\ 
+    & \\ 
+    log\_CBD\_dist & 0.060$^{***}$ \\ 
+    & (0.011) \\ 
+    & \\ 
+    coastal\_tracts\_dummy & $-$0.035 \\ 
+    & (0.067) \\ 
+    & \\ 
+    percent\_unempl & $-$0.013$^{***}$ \\ 
+    & (0.004) \\ 
+    & \\ 
+    percent\_non\_white & $-$0.004$^{***}$ \\ 
+    & (0.001) \\ 
+    & \\ 
+    percent\_foreign\_born & 0.002$^{**}$ \\ 
+    & (0.001) \\ 
+    & \\ 
+    percent\_airbnb\_active\_rentals & 0.001$^{**}$ \\ 
+    & (0.0005) \\ 
+    & \\ 
+    School\_district\_quality & 0.008$^{***}$ \\ 
+    & (0.003) \\ 
+    & \\ 
+    job\_acc\_auto & 0.00000$^{***}$ \\ 
+    & (0.00000) \\ 
+    & \\ 
+    job\_acc\_transit & $-$0.00000$^{***}$ \\ 
+    & (0.00000) \\ 
+    & \\ 
+    Constant & 6.849$^{***}$ \\ 
+    & (0.085) \\ 
+    & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 975 \\ 
+    R$^{2}$ & 0.184 \\ 
+    Adjusted R$^{2}$ & 0.176 \\ 
+    Residual Std. Error & 0.294 (df = 964) \\ 
+    F Statistic & 21.780$^{***}$ (df = 10; 964) \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+  \end{tabular} 
+\end{table} 
+
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jun 03, 2018 - 02:41:28 PM
+\begin{table}[H] \centering 
+  \caption{Variance inflation factor LMR active\_rentals} 
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}} cccccccccc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & log\_CBD\_dist & coastal\_tracts\_dummy & percent\_unempl & percent\_non\_white & percent\_foreign\_born & percent\_airbnb\_active\_rentals & School\_district\_quality & job\_acc\_auto & job\_acc\_transit \\ 
+    \hline \\[-1.8ex] 
+    $1.678$ & $1.669$ & $1.056$ & $1.250$ & $2.517$ & $2.152$ & $1.152$ & $1.044$ & $2.757$ & $2.470$ \\ 
+    \hline \\[-1.8ex] 
+  \end{tabular} 
+\end{table} 
+
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jun 03, 2018 - 02:41:36 PM
+\begin{table}[H] \centering 
+  \caption{Spatial lag model LMR active\_rentals}
+  \label{}
+  \begin{tabular}{@{\extracolsep{5pt}}lc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-2} 
+    \\[-1.8ex] & log\_median\_rent \\ 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & 0.048$^{***}$ \\ 
+    & (0.011) \\ 
+    & \\ 
+    log\_CBD\_dist & 0.057$^{***}$ \\ 
+    & (0.011) \\ 
+    & \\ 
+    coastal\_tracts\_dummy & $-$0.021 \\ 
+    & (0.067) \\ 
+    & \\ 
+    percent\_unempl & $-$0.012$^{***}$ \\ 
+    & (0.004) \\ 
+    & \\ 
+    percent\_non\_white & $-$0.004$^{***}$ \\ 
+    & (0.001) \\ 
+    & \\ 
+    percent\_foreign\_born & 0.002$^{**}$ \\ 
+    & (0.001) \\ 
+    & \\ 
+    percent\_airbnb\_active\_rentals & 0.001$^{**}$ \\ 
+    & (0.0005) \\ 
+    & \\ 
+    School\_district\_quality & 0.007$^{***}$ \\ 
+    & (0.003) \\ 
+    & \\ 
+    job\_acc\_auto & 0.00000$^{***}$ \\ 
+    & (0.00000) \\ 
+    & \\ 
+    job\_acc\_transit & $-$0.00000$^{***}$ \\ 
+    & (0.00000) \\ 
+    & \\ 
+    Constant & 5.622$^{***}$ \\ 
+    & (0.350) \\ 
+    & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 975 \\ 
+    Log Likelihood & $-$176.958 \\ 
+    $\sigma^{2}$ & 0.084 \\ 
+    Akaike Inf. Crit. & 379.917 \\ 
+    Wald Test & 13.054$^{***}$ (df = 1) \\ 
+    LR Test & 12.679$^{***}$ (df = 1) \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+  \end{tabular} 
+\end{table} 
+
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jun 03, 2018 - 02:41:41 PM
+\begin{table}[H] \centering 
+  \caption{Spatial error model LMR active\_rentals}
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}}lc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-2} 
+    \\[-1.8ex] & log\_median\_rent \\ 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & 0.049$^{***}$ \\ 
+    & (0.011) \\ 
+    & \\ 
+    log\_CBD\_dist & 0.059$^{***}$ \\ 
+    & (0.011) \\ 
+    & \\ 
+    coastal\_tracts\_dummy & $-$0.013 \\ 
+    & (0.066) \\ 
+    & \\ 
+    percent\_unempl & $-$0.012$^{***}$ \\ 
+    & (0.004) \\ 
+    & \\ 
+    percent\_non\_white & $-$0.004$^{***}$ \\ 
+    & (0.001) \\ 
+    & \\ 
+    percent\_foreign\_born & 0.002$^{**}$ \\ 
+    & (0.001) \\ 
+    & \\ 
+    percent\_airbnb\_all\_rentals & 0.002$^{***}$ \\ 
+    & (0.001) \\ 
+    & \\ 
+    School\_district\_quality & 0.007$^{***}$ \\ 
+    & (0.003) \\ 
+    & \\ 
+    job\_acc\_auto & 0.00000$^{***}$ \\ 
+    & (0.00000) \\ 
+    & \\ 
+    job\_acc\_transit & $-$0.00000$^{***}$ \\ 
+    & (0.00000) \\ 
+    & \\ 
+    Constant & 6.856$^{***}$ \\ 
+    & (0.086) \\ 
+    & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 975 \\ 
+    Log Likelihood & $-$175.683 \\ 
+    $\sigma^{2}$ & 0.084 \\ 
+    Akaike Inf. Crit. & 377.366 \\ 
+    Wald Test & 12.240$^{***}$ (df = 1) \\ 
+    LR Test & 11.760$^{***}$ (df = 1) \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+  \end{tabular} 
+\end{table} 
+
+
+\end{document}
