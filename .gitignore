@@ -1,2 +1,5 @@
 __pycache__/*
 .Rproj.user
+*/__pycache__/*
+*/*.log
+*/*.log.bak
