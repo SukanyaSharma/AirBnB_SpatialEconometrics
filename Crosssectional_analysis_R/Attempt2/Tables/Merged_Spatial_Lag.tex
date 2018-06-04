@@ -1,51 +1,74 @@
 \documentclass[10pt, letterpaper, landscape]{amsart}
-\usepackage[landscape]{geometry}
+\usepackage[landscape, left=0.2cm, right=0.2cm, top=1cm]{geometry}
 \usepackage{booktabs}
+\usepackage[justification=centering]{caption}
 
 \begin{document}
 \pagenumbering{gobble}
-\begin{table}[]
+
+\begin{table}[!ht]
   \centering
   \caption{Coefficients and Standard errors for Spatial Lag models}
   \label{my-label}
+  \renewcommand{\arraystretch}{0.7}
   \begin{tabular}{@{}llllllllll@{}}
-    \toprule
-    \multicolumn{2}{l}{Independent variables (X)} & \multicolumn{8}{c}{Dependent variable (Y)} \\ \midrule
+    \toprule\\[-2.4ex]\toprule
+    \multicolumn{2}{c}{Independent variables $(X)$} & \multicolumn{8}{c}{Dependent variable $(Y)$} \\ \midrule
+    \addlinespace[0.5em]
     Category & Variable name & \multicolumn{2}{c}{Rent burdened} & \multicolumn{2}{c}{Rent over-burdened} & \multicolumn{2}{c}{Rent hourly wage} & \multicolumn{2}{c}{Log median rent} \\
+    \addlinespace[0.5em]
     &  & \multicolumn{1}{c}{Model 1} & \multicolumn{1}{c}{Model 2} & \multicolumn{1}{c}{Model 3} & \multicolumn{1}{c}{Model 4} & \multicolumn{1}{c}{Model 5} & \multicolumn{1}{c}{Model 6} & \multicolumn{1}{c}{Model 7} & \multicolumn{1}{c}{Model 8} \\ \midrule[.5pt]
     
+    \addlinespace[0.5em]
     Airbnb
     & Airbnb all rentals & \begin{tabular}[t]{@{}l@{}}$0.0597^{***}$\\$(0.0222)$\end{tabular} & & \begin{tabular}[t]{@{}l@{}}$0.0475^{***}$\\$(0.018)$\end{tabular} & & \begin{tabular}[t]{@{}l@{}}$0.0213^{*}$\\$(0.0127)$\end{tabular} & & \begin{tabular}[t]{@{}l@{}}$0.0007^{}$\\$(0.0006)$\end{tabular} & \\    
     & Airbnb active rentals & & \begin{tabular}[t]{@{}l@{}}$0.0409^{**}$\\$(0.0185)$\end{tabular} & & \begin{tabular}[t]{@{}l@{}}$0.0326^{**}$\\$(0.0148)$\end{tabular} & & \begin{tabular}[t]{@{}l@{}}$0.0138^{}$\\$(0.0102)$\end{tabular} & & \begin{tabular}[t]{@{}l@{}}$0.0003^{}$\\$(0.0004)$\end{tabular} \\    
     
+    \addlinespace[1.8em]
     Location
     & Log BART distance & \begin{tabular}[t]{@{}l@{}}$1.293^{***}$\\$(0.425)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$1.298^{***}$\\$(0.425)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$1.203^{***}$\\$(0.3423)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$1.207^{***}$\\$(0.3382)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.9228^{***}$\\$(0.2434)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.925^{***}$\\$(0.2409)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.0357^{***}$\\$(0.0106)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.0358^{***}$\\$(0.0106)$\end{tabular} \\
+    \addlinespace[0.5em]
     & Log CBD distance & \begin{tabular}[t]{@{}l@{}}$1.787^{***}$\\$(0.4462)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$1.714^{***}$\\$(0.4497)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.2768^{}$\\$(0.3623)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.219^{}$\\$(0.3547)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$-2.437^{***}$\\$(0.256)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$-2.469^{***}$\\$(0.2524)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.0366^{***}$\\$(0.0113)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.0349^{***}$\\$(0.0111)$\end{tabular} \\
+    \addlinespace[0.5em]
     & Coastal tract (dummy) & \begin{tabular}[t]{@{}l@{}}$-5.222^{**}$\\$(2.541)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$-5.236^{**}$\\$(2.548)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$-3.942^{*}$\\$(2.058)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$-3.954^{*}$\\$(2.048)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$1.879^{}$\\$(1.454)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$1.871^{}$\\$(1.408)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$-0.0107^{}$\\$(0.0789)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$-0.0113^{}$\\$(0.0581)$\end{tabular} \\
     
+    \addlinespace[1.8em]
     Demographic
     & Percentage unemployed & \begin{tabular}[t]{@{}l@{}}$0.6604^{***}$\\$(0.1709)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.6642^{***}$\\$(0.1709)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.8275^{***}$\\$(0.1339)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.8305^{***}$\\$(0.1364)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$-0.026^{}$\\$(0.1114)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$-0.0241^{}$\\$(0.0866)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.0026^{}$\\$(0.0047)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.0027^{}$\\$(0.0041)$\end{tabular} \\
-    & Percentage non-white & \begin{tabular}[t]{@{}l@{}}$0.0116^{}$\\$(0.0268)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.0126^{}$\\$(0.0259)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$-0.0043^{}$\\$(0.0111)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$-0.0034^{}$\\$(--)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$-0.0476^{***}$\\$(0.0151)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$-0.0472^{***}$\\$(0.0144)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$-0.0026^{***}$\\$(0.0007)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$-0.0026^{***}$\\$(0.0007)$\end{tabular} \\
+    \addlinespace[0.5em]
+    & Percentage non-white & \begin{tabular}[t]{@{}l@{}}$0.0116^{}$\\$(0.0268)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.0126^{}$\\$(0.0259)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$-0.0043^{}$\\$(0.0111)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$-0.0034^{}$\\--\end{tabular} & \begin{tabular}[t]{@{}l@{}}$-0.0476^{***}$\\$(0.0151)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$-0.0472^{***}$\\$(0.0144)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$-0.0026^{***}$\\$(0.0007)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$-0.0026^{***}$\\$(0.0007)$\end{tabular} \\
+    \addlinespace[0.5em]
     & Percentage foreign-born & \begin{tabular}[t]{@{}l@{}}$0.0658^{*}$\\$(0.0384)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.0663^{*}$\\$(0.0388)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.0381^{}$\\$(0.0249)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.0383^{*}$\\$(0.023)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.144^{***}$\\$(0.0219)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.1442^{***}$\\$(0.0219)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.0033^{***}$\\$(0.001)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.0033^{***}$\\$(0.001)$\end{tabular} \\
+    \addlinespace[0.5em]
     & Log median household income & \begin{tabular}[t]{@{}l@{}}$-14.95^{***}$\\$(1.054)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$-14.78^{***}$\\$(1.073)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$-9.963^{***}$\\$(0.8461)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$-9.836^{***}$\\$(0.8096)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$1.452^{**}$\\$(0.6578)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$1.52^{**}$\\$(0.6638)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.2141^{***}$\\$(0.0272)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.2171^{***}$\\$(0.0261)$\end{tabular} \\
     
+    \addlinespace[1.8em]
     Neighborhood level
-    & School district quality & \begin{tabular}[t]{@{}l@{}}$0.0507^{}$\\$(0.1034)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.056^{}$\\$(0.1131)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$-0.0019^{}$\\$(--)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.0021^{}$\\$(--)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$-0.0066^{}$\\$(0.079)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$-0.0049^{}$\\$(--)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.0026^{}$\\$(0.0026)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.0026^{}$\\$(0.0025)$\end{tabular} \\
+    & School district quality & \begin{tabular}[t]{@{}l@{}}$0.0507^{}$\\$(0.1034)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.056^{}$\\$(0.1131)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$-0.0019^{}$\\--\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.0021^{}$\\--\end{tabular} & \begin{tabular}[t]{@{}l@{}}$-0.0066^{}$\\$(0.079)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$-0.0049^{}$\\--\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.0026^{}$\\$(0.0026)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.0026^{}$\\$(0.0025)$\end{tabular} \\
     
+    \addlinespace[1.8em]
     Job accessibility
     & Accessibility by car & \begin{tabular}[t]{@{}l@{}}$0.0001^{}$\\$(0.0)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.0001^{}$\\$(0.0)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.0001^{}$\\$(0.0)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.0001^{}$\\$(0.0)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.0001^{***}$\\$(0.0)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.0001^{***}$\\$(0.0)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.0001^{**}$\\$(0.0)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.0001^{**}$\\$(0.0)$\end{tabular} \\
+    \addlinespace[0.5em]
     & Accessibility by transit & \begin{tabular}[t]{@{}l@{}}$0.0001^{*}$\\$(0.0)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.0001^{}$\\$(0.0)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.0001^{}$\\$(0.0)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.0001^{}$\\$(0.0)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.0001^{**}$\\$(0.0)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.0001^{**}$\\$(0.0)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.0001^{**}$\\$(0.0)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$0.0001^{*}$\\$(0.0)$\end{tabular} \\
     
+    \addlinespace[1.8em]
     Constant
     & Intercept & \begin{tabular}[t]{@{}l@{}}$195.3^{***}$\\$(12.34)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$193.8^{***}$\\$(12.46)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$125.2^{***}$\\$(9.817)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$124.1^{***}$\\$(9.573)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$-3.753^{}$\\$(7.293)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$-4.363^{}$\\$(7.636)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$3.569^{***}$\\$(0.4306)$\end{tabular} & \begin{tabular}[t]{@{}l@{}}$3.54^{***}$\\$(0.424)$\end{tabular} \\ \midrule
     
+    \addlinespace[0.5em]    
     Tests and statistics
-    & Log likelihood &  &  &  &  &  &  &  &  \\
-    & $\sigma^2$ &  &  &  &  &  &  &  &  \\
-    & \# of observations &  &  &  &  &  &  &  &  \\
-    & deg.\ of freedom &  &  &  &  &  &  &  &  \\
-    & AIC &  &  &  &  &  &  &  &  \\
-    Notes: & \multicolumn{9}{l}{} \\ \bottomrule
+    & Log likelihood & $-3740.434$ & $-3741.545$ & $-3532.489$ & $-3533.553$ & $-3192.647$ & $-3193.193$ & $-144.0027$ &  $-144.4273$\\
+    \addlinespace[0.5em]    
+    & $\sigma^2$ & $125.8$ & $126.09$ & $82.125$ & $82.303$ & $39.861$ & $39.906$ & $0.07844$ & $0.078506$ \\
+    \addlinespace[0.5em]    
+    & Number of observations & $975$ & $975$ & $975$ & $975$ & $975$ & $975$ & $975$ & $975$ \\
+    \addlinespace[0.5em]    
+    & deg.\ of freedom & $14$ & $14$ & $14$ & $14$ & $14$ & $14$ & $14$ & $14$ \\
+    \addlinespace[0.5em]    
+    & AIC & $7508.9$ & $7511.1$ & $7093$ & $7095.1$ & $6413.3$ & $6414.4$ & $316.01$ & $316.85$ \\ \midrule\\[-2.8ex]\bottomrule
+    \addlinespace[0.5em]
+    \emph{Notes:} & \multicolumn{9}{l}{${}^{*}p<0.1; \quad {}^{**}p<0.05;  \quad {}^{***}p<0.01 $ } \\
   \end{tabular}
 \end{table}
 

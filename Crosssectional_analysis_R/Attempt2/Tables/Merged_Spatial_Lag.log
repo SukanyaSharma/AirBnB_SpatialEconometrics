@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.1)  3 JUN 2018 22:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.1)  3 JUN 2018 23:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -155,27 +155,44 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \@lastruleclass=\count106
 \@thisrulewidth=\dimen134
 )
+(/home/vaibhav/.texlive/2018/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/home/vaibhav/.texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen135
+\captionmargin@=\dimen136
+\captionwidth=\dimen137
+\caption@tempdima=\dimen138
+\caption@indent=\dimen139
+\caption@parindent=\dimen140
+\caption@hangindent=\dimen141
+)
+Package caption Info: AMS or SMF document class.
+\c@ContinuedFloat=\count107
+)
 (./Merged_Spatial_Lag.aux)
 \openout1 = `Merged_Spatial_Lag.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Try loading font information for U+msa on input line 5.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Try loading font information for U+msa on input line 6.
 
 (/home/vaibhav/.texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 5.
+LaTeX Font Info:    Try loading font information for U+msb on input line 6.
 
 (/home/vaibhav/.texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -188,15 +205,15 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: landscape twoside 
-* h-part:(L,W,R)=(95.39737pt, 556.47656pt, 143.09605pt)
-* v-part:(T,H,B)=(73.71613pt, 430.00462pt, 110.57425pt)
+* h-part:(L,W,R)=(5.69046pt, 783.58907pt, 5.69046pt)
+* v-part:(T,H,B)=(28.45274pt, 512.12613pt, 73.71613pt)
 * \paperwidth=794.96999pt
 * \paperheight=614.295pt
-* \textwidth=556.47656pt
-* \textheight=430.00462pt
-* \oddsidemargin=23.12738pt
-* \evensidemargin=70.82607pt
-* \topmargin=-20.55386pt
+* \textwidth=783.58907pt
+* \textheight=512.12613pt
+* \oddsidemargin=-66.57953pt
+* \evensidemargin=-66.57953pt
+* \topmargin=-65.81725pt
 * \headheight=8.0pt
 * \headsep=14.0pt
 * \topskip=10.0pt
@@ -214,39 +231,33 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 7.
-
-
-Overfull \hbox (116.35849pt too wide) in paragraph at lines 11--50
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 33.06737pt on input line 50.
+LaTeX Warning: Float too large for page by 38.84541pt on input line 73.
 
 [1{/home/vaibhav/.texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./Merged_Spatial_Lag.aux) ) 
 Here is how much of TeX's memory you used:
- 1959 strings out of 492649
- 24280 string characters out of 6127731
- 114579 words of memory out of 5000000
- 5703 multiletter control sequences out of 15000+600000
- 8740 words of font info for 35 fonts, out of 8000000 for 9000
+ 3023 strings out of 492649
+ 43641 string characters out of 6127731
+ 143442 words of memory out of 5000000
+ 6760 multiletter control sequences out of 15000+600000
+ 9086 words of font info for 36 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 34i,15n,29p,617b,220s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,15n,39p,617b,294s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/vaibhav/.texlive/2018/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmcsc10.pfb></home/vaibhav/.texlive/2018/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmmi10.pfb></home/vaibhav/.texlive/2018/texmf-dist/font
 s/type1/public/amsfonts/cm/cmr10.pfb></home/vaibhav/.texlive/2018/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmr7.pfb></home/vaibhav/.texlive/2018/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmsy10.pfb></home/vaibhav/.texlive/2018/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Merged_Spatial_Lag.pdf (1 page, 61060 bytes).
+t/fonts/type1/public/amsfonts/cm/cmsy7.pfb></home/vaibhav/.texlive/2018/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Merged_Spatial_Lag.pdf (1 page, 71176 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
+ 36 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
