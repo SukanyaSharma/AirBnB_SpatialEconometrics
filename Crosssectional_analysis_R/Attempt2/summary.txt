@@ -1,0 +1,100 @@
+#######################
+# RB_all
+
+Log likelihood: -3740.434 for lag model
+ML residual variance (sigma squared): 125.8, (sigma: 11.216)
+Number of observations: 975 
+Number of parameters estimated: 14 
+AIC: 7508.9, (AIC for lm: 7507.3)
+
+
+##############################
+# RB_active
+
+Log likelihood: -3741.545 for lag model
+ML residual variance (sigma squared): 126.09, (sigma: 11.229)
+Number of observations: 975 
+Number of parameters estimated: 14 
+AIC: 7511.1, (AIC for lm: 7509.4)
+
+
+###############################
+# ROB_all
+
+Log likelihood: -3532.489 for lag model
+ML residual variance (sigma squared): 82.125, (sigma: 9.0623)
+Number of observations: 975 
+Number of parameters estimated: 14 
+AIC: 7093, (AIC for lm: 7091)
+
+###############################
+# ROB_active
+
+Log likelihood: -3533.553 for lag model
+ML residual variance (sigma squared): 82.303, (sigma: 9.0721)
+Number of observations: 975 
+Number of parameters estimated: 14 
+AIC: 7095.1, (AIC for lm: 7093.2)
+
+###############################
+# RHW_all
+
+Log likelihood: -3192.647 for lag model
+ML residual variance (sigma squared): 39.861, (sigma: 6.3135)
+Number of observations: 975 
+Number of parameters estimated: 14 
+AIC: 6413.3, (AIC for lm: 6494.3)
+
+################################
+# RHW_active
+
+Log likelihood: -3193.193 for lag model
+ML residual variance (sigma squared): 39.906, (sigma: 6.3171)
+Number of observations: 975 
+Number of parameters estimated: 14 
+AIC: 6414.4, (AIC for lm: 6495.3)
+
+################################
+# LMR_all
+
+Log likelihood: -144.0027 for lag model
+ML residual variance (sigma squared): 0.07844, (sigma: 0.28007)
+Number of observations: 975 
+Number of parameters estimated: 14 
+AIC: 316.01, (AIC for lm: 321.98)
+
+################################
+# LMR_active
+
+Log likelihood: -144.4273 for lag model
+ML residual variance (sigma squared): 0.078506, (sigma: 0.28019)
+Number of observations: 975 
+Number of parameters estimated: 14 
+AIC: 316.85, (AIC for lm: 322.9)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
