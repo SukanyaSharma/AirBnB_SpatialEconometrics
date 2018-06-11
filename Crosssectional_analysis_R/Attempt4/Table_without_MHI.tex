@@ -1,0 +1,229 @@
+\documentclass[10pt, letterpaper, landscape]{amsart}
+\usepackage[landscape, left=0.2cm, right=0.2cm, top=1cm]{geometry}
+\usepackage{booktabs}
+\usepackage[justification=centering]{caption}
+
+
+\newcommand{\entry}[3]{\begin{tabular}[t]{@{}l@{}} $#1^{#2}$ \\ $#3$ \end{tabular}}
+
+
+\begin{document}
+\pagenumbering{gobble}
+
+	\begin{table}[!ht]
+	\centering
+	\caption{Coefficients and Standard errors for Spatial Lag models (with MHI)}
+	\label{my-label}
+	\renewcommand{\arraystretch}{0.7}
+	\begin{tabular}{@{}llllllllll@{}}
+		\toprule\\[-2.4ex]\toprule
+		\multicolumn{2}{c}{Independent variables $(X)$} & \multicolumn{8}{c}{Dependent variable $(Y)$} \\ \midrule
+		\addlinespace[0.5em]
+		Category & Variable name & \multicolumn{2}{c}{Rent burdened} & \multicolumn{2}{c}{Rent over-burdened}
+		& \multicolumn{2}{c}{Log median rent} & \multicolumn{2}{c}{Log median house price} \\ 
+		\addlinespace[0.5em]
+		 & &\multicolumn{1}{c}{Model 1} & \multicolumn{1}{c}{Model 2} & \multicolumn{1}{c}{Model 3}&\multicolumn{1}{c}{Model 4} &
+		\multicolumn{1}{c}{Model 5} & \multicolumn{1}{c}{Model 6} & \multicolumn{1}{c}{Model 7} & \multicolumn{1}{c}{Model 8}\\ 
+		\midrule[.5pt]
+		\addlinespace[0.5em]
+	
+		\addlinespace[0.5em]
+		\addlinespace[1.3em]Airbnb
+			 & Airbnb all rentals
+			 & \entry{-0.027}{  }{(0.024)}
+			 & \entry{}{ }{}
+			 & \entry{0.013}{ }{(0.018)}
+			 & \entry{}{ }{}
+			 & \entry{0.001}{ }{(0.002)}
+			 & \entry{}{ }{}
+			 & \entry{0.005}{ }{(0.004)}
+			 & \entry{}{ }{}\\
+	
+		\addlinespace[0.5em]
+			 & Airbnb composite score
+			 & \entry{}{ }{}
+			 & \entry{-0.081}{ ***}{(0.016)}
+			 & \entry{}{ }{}
+			 & \entry{-0.042}{ *** }{(0.013)}
+			 & \entry{}{ }{}
+			 & \entry{0.004}{ *** }{(0.001)}
+			 & \entry{}{ }{}
+			 & \entry{0.011}{ *** }{(0.003)}\\
+	
+		\addlinespace[0.5em]
+		\addlinespace[1.3em]Location
+			 & Log BART distance
+			 & \entry{0.495}{  }{(0.480)}
+			 & \entry{0.538}{ }{(0.457)}
+			 & \entry{0.534}{ }{(0.361)}
+			 & \entry{0.593}{ }{(0.363)}
+			 & \entry{0.051}{ }{(0.031)}
+			 & \entry{0.048}{ }{(0.033)}
+			 & \entry{0.203}{ ***}{(0.070)}
+			 & \entry{0.199}{ *** }{(0.070)}\\
+	
+		\addlinespace[0.5em]
+			 & Log CBD distance
+			 & \entry{0.719}{  }{(0.502)}
+			 & \entry{0.002}{ }{}
+			 & \entry{-0.481}{ }{(0.381)}
+			 & \entry{-0.980}{ ** }{(0.394)}
+			 & \entry{0.031}{  }{(0.033)}
+			 & \entry{0.067}{ * }{(0.035)}
+			 & \entry{0.075}{ }{(0.073)}
+			 & \entry{0.169}{ ** }{(0.077)}\\
+	
+		\addlinespace[0.5em]
+			 & Coastal tracts (dummy)
+			 & \entry{-5.171}{* }{(2.852)}
+			 & \entry{-4.871}{ * }{(2.834)}
+			 & \entry{-3.537}{ }{(2.200)}
+			 & \entry{-3.469}{ }{(2.185)}
+			 & \entry{0.013}{ }{(0.098)}
+			 & \entry{0.002}{ }{(0.014)}
+			 & \entry{-0.657}{ }{(0.423)}
+			 & \entry{-0.704}{ * }{(0.419)}\\
+	
+		\addlinespace[0.5em]
+		\addlinespace[1.3em]Demographic
+			 & Unemployment rate
+			 & \entry{1.153}{ *** }{(0.128)}
+			 & \entry{1.054}{ *** }{(0.128)}
+			 & \entry{1.023}{ *** }{(0.098)}
+			 & \entry{0.964}{ *** }{(0.099)}
+			 & \entry{-0.021}{ *** }{(0.008)}
+			 & \entry{-0.017}{ * }{(0.009)}
+			 & \entry{-0.059}{ *** }{(0.019)}
+			 & \entry{-0.045}{ ** }{(0.019)}\\
+	
+		\addlinespace[0.5em]
+			 & Percentage non-white
+			 & \entry{0.122}{ *** }{(0.024)}
+			 & \entry{0.109}{ *** }{(0.024)}
+			 & \entry{0.070}{ *** }{(0.019)}
+			 & \entry{0.063}{ *** }{(0.019)}
+			 & \entry{0.0001}{ }{}
+			 & \entry{0.001}{ }{(0.002)}
+			 & \entry{-0.011}{ *** }{(0.004)}
+			 & \entry{-0.009}{ ** }{(0.004)}\\
+	
+		\addlinespace[0.5em]
+			 & Percentage foreign-born
+			 & \entry{0.084}{ *** }{(0.027)}
+			 & \entry{0.095}{ *** }{(0.027)}
+			 & \entry{0.052}{ ** }{(0.021)}
+			 & \entry{0.058}{ *** }{(0.021)}
+			 & \entry{0.002}{ }{(0.002)}
+			 & \entry{0.002}{ }{(0.002)}
+			 & \entry{0.014}{ ** }{(0.004)}
+			 & \entry{0.012}{ *** }{(0.004)}\\
+	
+		\addlinespace[0.5em]
+		\addlinespace[1.3em]Neighborhood level
+			 & School district quality
+			 & \entry{-0.234}{ ** }{(0.111)}
+			 & \entry{-0.228}{ ** }{(0.111)}
+			 & \entry{-0.237}{ *** }{(0.086)}
+			 & \entry{-0.232}{ *** }{(0.086)}
+			 & \entry{0.007}{ }{(0.008)}
+			 & \entry{0.006}{ }{(0.008)}
+			 & \entry{0.043}{ ** }{(0.017)}
+			 & \entry{0.042}{ ** }{(0.016)}\\
+	
+		\addlinespace[0.5em]
+		\addlinespace[1.3em]Job accessibility
+			 & Accessibility by car
+			 & \entry{-0.00003}{ *** }{(0.00001)}
+			 & \entry{-0.00003}{ *** }{(0.00001)}
+			 & \entry{-0.00002}{ *** }{(0.00001)}
+			 & \entry{-0.00002}{ *** }{(0.00001)}
+			 & \entry{0.00000}{ }{(0.00000)}
+			 & \entry{0.00000}{ * }{(0.00000)}
+			 & \entry{0.00000}{ *** }{(0.00000)}
+			 & \entry{0.00001}{ *** }{(0.00000)}\\
+	
+		\addlinespace[0.5em]
+			 & Accessibility by transit
+			 & \entry{0.00003}{ }{(0.00004)}
+			 & \entry{0.0001}{ ** }{(0.00004)}
+			 & \entry{0.00001}{ }{ (0.00002)}
+			 & \entry{0.00005}{ }{(0.00003)}
+			 & \entry{-0.00000}{ }{(0.00000)}
+			 & \entry{-0.00001}{ ** }{(0.00000)}
+			 & \entry{-0.00002}{ *** }{(0.00001)}
+			 & \entry{-0.00003}{ *** }{(0.00001)}\\
+	
+		\addlinespace[0.5em]
+		\addlinespace[1.3em]Constant
+			 & Intercept
+			 & \entry{27.072}{ ***}{ (4.445)}
+			 & \entry{33.815}{ *** }{(3.752)}
+			 & \entry{15.661}{ *** }{(3.146)}
+			 & \entry{20.217}{ *** }{(3.146)}
+			 & \entry{5.803}{ *** }{(0.441)}
+			 & \entry{5.546}{ *** }{(0.447)}
+			 & \entry{10.848}{ *** }{(0.866)}
+			 & \entry{10.156}{ *** }{(0.860)}\\
+	
+		\addlinespace[0.5em]
+		\addlinespace[1.3em]\addlinespace[-1.3em]\midrule\addlinespace[0.5em] Tests and statistics
+			 & Log likelihood
+			 & \entry{-3856.455}{ }{}
+			 & \entry{-3845.838}{ }{}
+			 & \entry{-3597.918}{ }{}
+			 & \entry{-3593.173}{ }{}
+			 & \entry{-1238.971}{ }{}
+			 & \entry{-1233.899}{ }{}
+			 & \entry{-1993.185}{ }{}
+			 & \entry{-1983.987}{ }{}\\
+	
+		\addlinespace[0.5em]
+			 & $\sigma^2$
+			 & 159.432
+			 & 156.041
+			 & 93.911
+			 & 93.011
+			 & 0.740
+			 & 0.733
+			 & 3.491
+			 & 3.426\\
+	
+		\addlinespace[0.5em]
+			 & Number of observations
+			 & 975
+			 & 975
+			 & 975
+			 & 975
+			 & 975
+			 & 975
+			 & 975
+			 & 975\\
+	
+		\addlinespace[0.5em]
+			 & deg.\ of freedom
+			 & 13
+			 & 13
+			 & 13
+			 & 13
+			 & 13
+			 & 13
+			 & 13
+			 & 13\\
+	
+		\addlinespace[0.5em]
+			 & AIC
+			 & 7738.910
+			 & 7717.676
+			 & 7221.836
+			 & 7212.345
+			 & 2503.941
+			 & 2493.798
+			 & 4012.369
+			 & 3993.974
+
+\\ \midrule\\[-2.8ex]\bottomrule
+		\\ 
+		\emph{Notes:} & \multicolumn{9}{l}{${}^{*}p<0.1; \quad {}^{**}p<0.05;  \quad {}^{***}p<0.01 $ } \\ 
+		\end{tabular}
+	\end{table}
+\end{document}

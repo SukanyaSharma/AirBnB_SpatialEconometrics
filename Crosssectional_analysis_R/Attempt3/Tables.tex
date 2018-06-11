@@ -1,0 +1,414 @@
+\documentclass[10pt, letterpaper]{amsart}
+
+\begin{document}
+  
+
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Wed, Jun 06, 2018 - 10:18:17 AM
+\begin{table}[!htbp] \centering 
+  \caption{ROB\_allrentals\_withoutMHI} 
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}}lc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-2} 
+    \\[-1.8ex] & rent\_overburdened \\ 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & 0.636$^{*}$ \\ 
+    & (0.359) \\ 
+    & \\ 
+    log\_CBD\_dist & $-$0.803$^{**}$ \\ 
+    & (0.375) \\ 
+    & \\ 
+    coastal\_tracts\_dummy & $-$3.378 \\ 
+    & (2.196) \\ 
+    & \\ 
+    percent\_unempl & 1.512$^{***}$ \\ 
+    & (0.133) \\ 
+    & \\ 
+    percent\_non\_white & 0.044$^{*}$ \\ 
+    & (0.023) \\ 
+    & \\ 
+    percent\_foreign\_born & 0.087$^{***}$ \\ 
+    & (0.033) \\ 
+    & \\ 
+    percent\_airbnb\_all\_rentals & 0.005 \\ 
+    & (0.021) \\ 
+    & \\ 
+    School\_district\_quality & $-$0.199$^{**}$ \\ 
+    & (0.086) \\ 
+    & \\ 
+    job\_acc\_auto & $-$0.00002$^{***}$ \\ 
+    & (0.00001) \\ 
+    & \\ 
+    job\_acc\_transit & 0.00003 \\ 
+    & (0.00002) \\ 
+    & \\ 
+    Constant & 16.756$^{***}$ \\ 
+    & (3.135) \\ 
+    & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 975 \\ 
+    Log Likelihood & $-$3,595.503 \\ 
+    $\sigma^{2}$ & 93.446 \\ 
+    Akaike Inf. Crit. & 7,217.005 \\ 
+    Wald Test & 0.327 (df = 1) \\ 
+    LR Test & 0.333 (df = 1) \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+  \end{tabular} 
+\end{table}
+
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Wed, Jun 06, 2018 - 10:31:45 AM
+\begin{table}[!htbp] \centering 
+  \caption{LMHP\_allrentals\_withouMHI} 
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}}lc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-2} 
+    \\[-1.8ex] & log\_median\_house\_price \\ 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & 0.091$^{***}$ \\ 
+    & (0.018) \\ 
+    & \\ 
+    log\_CBD\_dist & $-$0.121$^{***}$ \\ 
+    & (0.019) \\ 
+    & \\ 
+    coastal\_tracts\_dummy & $-$0.265$^{**}$ \\ 
+    & (0.111) \\ 
+    & \\ 
+    percent\_unempl & $-$0.043$^{***}$ \\ 
+    & (0.007) \\ 
+    & \\ 
+    percent\_non\_white & $-$0.005$^{***}$ \\ 
+    & (0.001) \\ 
+    & \\ 
+    percent\_foreign\_born & 0.003$^{**}$ \\ 
+    & (0.002) \\ 
+    & \\ 
+    percent\_airbnb\_all\_rentals & $-$0.001 \\ 
+    & (0.001) \\ 
+    & \\ 
+    School\_district\_quality & 0.008$^{*}$ \\ 
+    & (0.004) \\ 
+    & \\ 
+    job\_acc\_auto & 0.00000$^{**}$ \\ 
+    & (0.00000) \\ 
+    & \\ 
+    job\_acc\_transit & $-$0.00000 \\ 
+    & (0.00000) \\ 
+    & \\ 
+    Constant & 9.920$^{***}$ \\ 
+    & (0.593) \\ 
+    & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 975 \\ 
+    Log Likelihood & $-$694.436 \\ 
+    $\sigma^{2}$ & 0.240 \\ 
+    Akaike Inf. Crit. & 1,414.872 \\ 
+    Wald Test & 43.185$^{***}$ (df = 1) \\ 
+    LR Test & 40.227$^{***}$ (df = 1) \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+  \end{tabular} 
+\end{table}
+
+%==================================================================================================
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Wed, Jun 06, 2018 - 10:33:05 AM
+\begin{table}[!htbp] \centering 
+  \caption{LMR\_allrentals\_withoutMHI} 
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}}lc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-2} 
+    \\[-1.8ex] & log\_median\_rent \\ 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & 0.048$^{***}$ \\ 
+    & (0.011) \\ 
+    & \\ 
+    log\_CBD\_dist & 0.059$^{***}$ \\ 
+    & (0.011) \\ 
+    & \\ 
+    coastal\_tracts\_dummy & $-$0.020 \\ 
+    & (0.061) \\ 
+    & \\ 
+    percent\_unempl & $-$0.012$^{***}$ \\ 
+    & (0.004) \\ 
+    & \\ 
+    percent\_non\_white & $-$0.004$^{***}$ \\ 
+    & (0.001) \\ 
+    & \\ 
+    percent\_foreign\_born & 0.002$^{**}$ \\ 
+    & (0.001) \\ 
+    & \\ 
+    percent\_airbnb\_all\_rentals & 0.002$^{***}$ \\ 
+    & (0.001) \\ 
+    & \\ 
+    School\_district\_quality & 0.007$^{***}$ \\ 
+    & (0.003) \\ 
+    & \\ 
+    job\_acc\_auto & 0.00000$^{***}$ \\ 
+    & (0.00000) \\ 
+    & \\ 
+    job\_acc\_transit & $-$0.00000$^{***}$ \\ 
+    & (0.00000) \\ 
+    & \\ 
+    Constant & 5.628$^{***}$ \\ 
+    & (0.349) \\ 
+    & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 975 \\ 
+    Log Likelihood & $-$175.377 \\ 
+    $\sigma^{2}$ & 0.084 \\ 
+    Akaike Inf. Crit. & 376.754 \\ 
+    Wald Test & 12.756$^{***}$ (df = 1) \\ 
+    LR Test & 12.371$^{***}$ (df = 1) \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+  \end{tabular} 
+\end{table} 
+%====%===========================================================================================
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Wed, Jun 06, 2018 - 10:35:39 AM
+\begin{table}[!htbp] \centering 
+  \caption{RB\_composite\_score\_wihtoutMHI} 
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}}lc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-2} 
+    \\[-1.8ex] & rent\_burdened \\ 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & 0.429 \\ 
+    & (0.449) \\ 
+    & \\ 
+    log\_CBD\_dist & $-$0.752 \\ 
+    & (0.488) \\ 
+    & \\ 
+    coastal\_tracts\_dummy & $-$4.054 \\ 
+    & (2.760) \\ 
+    & \\ 
+    percent\_unempl & 1.601$^{***}$ \\ 
+    & (0.168) \\ 
+    & \\ 
+    percent\_non\_white & 0.064$^{**}$ \\ 
+    & (0.028) \\ 
+    & \\ 
+    percent\_foreign\_born & 0.154$^{***}$ \\ 
+    & (0.041) \\ 
+    & \\ 
+    Composite\_Score & $-$0.074$^{***}$ \\ 
+    & (0.016) \\ 
+    & \\ 
+    School\_district\_quality & $-$0.239$^{**}$ \\ 
+    & (0.108) \\ 
+    & \\ 
+    job\_acc\_auto & $-$0.00004$^{***}$ \\ 
+    & (0.00001) \\ 
+    & \\ 
+    job\_acc\_transit & 0.0001$^{***}$ \\ 
+    & (0.00003) \\ 
+    & \\ 
+    Constant & 39.421$^{***}$ \\ 
+    & (4.433) \\ 
+    & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 975 \\ 
+    Log Likelihood & $-$3,819.395 \\ 
+    $\sigma^{2}$ & 147.824 \\ 
+    Akaike Inf. Crit. & 7,664.789 \\ 
+    Wald Test & 1.966 (df = 1) \\ 
+    LR Test & 1.935 (df = 1) \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+  \end{tabular} 
+\end{table}
+
+%================================================================================================
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Wed, Jun 06, 2018 - 10:36:42 AM
+\begin{table}[!htbp] \centering 
+  \caption{ROB\_composite\_score\_withoutMHI} 
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}}lc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-2} 
+    \\[-1.8ex] & rent\_overburdened \\ 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & 0.631$^{*}$ \\ 
+    & (0.342) \\ 
+    & \\ 
+    log\_CBD\_dist & $-$1.427$^{***}$ \\ 
+    & (0.390) \\ 
+    & \\ 
+    coastal\_tracts\_dummy & $-$3.185 \\ 
+    & (2.114) \\ 
+    & \\ 
+    percent\_unempl & 1.459$^{***}$ \\ 
+    & (0.124) \\ 
+    & \\ 
+    percent\_non\_white & 0.031 \\ 
+    & (0.023) \\ 
+    & \\ 
+    percent\_foreign\_born & 0.097$^{***}$ \\ 
+    & (0.033) \\ 
+    & \\ 
+    Composite\_Score & $-$0.047$^{***}$ \\ 
+    & (0.009) \\ 
+    & \\ 
+    School\_district\_quality & $-$0.194$^{***}$ \\ 
+    & (0.047) \\ 
+    & \\ 
+    job\_acc\_auto & $-$0.00003$^{***}$ \\ 
+    & (0.00001) \\ 
+    & \\ 
+    job\_acc\_transit & 0.0001$^{***}$ \\ 
+    & (0.00002) \\ 
+    & \\ 
+    Constant & 22.133 \\ 
+    &  \\ 
+    & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 975 \\ 
+    Log Likelihood & $-$3,588.457 \\ 
+    $\sigma^{2}$ & 92.116 \\ 
+    Akaike Inf. Crit. & 7,202.915 \\ 
+    LR Test & 0.032 (df = 1) \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+  \end{tabular} 
+\end{table} 
+
+%==============================================================================================
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Wed, Jun 06, 2018 - 10:37:31 AM
+\begin{table}[!htbp] \centering 
+  \caption{LMR\_composite\_score\_withoutMHI} 
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}}lc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-2} 
+    \\[-1.8ex] & log\_median\_rent \\ 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & 0.049$^{***}$ \\ 
+    & (0.011) \\ 
+    & \\ 
+    log\_CBD\_dist & 0.058$^{***}$ \\ 
+    & (0.012) \\ 
+    & \\ 
+    coastal\_tracts\_dummy & $-$0.028 \\ 
+    & (0.066) \\ 
+    & \\ 
+    percent\_unempl & $-$0.012$^{***}$ \\ 
+    & (0.004) \\ 
+    & \\ 
+    percent\_non\_white & $-$0.003$^{***}$ \\ 
+    & (0.001) \\ 
+    & \\ 
+    percent\_foreign\_born & 0.002$^{**}$ \\ 
+    & (0.001) \\ 
+    & \\ 
+    Composite\_Score & 0.001 \\ 
+    & (0.0004) \\ 
+    & \\ 
+    School\_district\_quality & 0.007$^{***}$ \\ 
+    & (0.003) \\ 
+    & \\ 
+    job\_acc\_auto & 0.00000$^{***}$ \\ 
+    & (0.00000) \\ 
+    & \\ 
+    job\_acc\_transit & $-$0.00000$^{***}$ \\ 
+    & (0.00000) \\ 
+    & \\ 
+    Constant & 5.650$^{***}$ \\ 
+    & (0.351) \\ 
+    & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 975 \\ 
+    Log Likelihood & $-$178.116 \\ 
+    $\sigma^{2}$ & 0.084 \\ 
+    Akaike Inf. Crit. & 382.232 \\ 
+    Wald Test & 12.125$^{***}$ (df = 1) \\ 
+    LR Test & 11.806$^{***}$ (df = 1) \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+  \end{tabular} 
+\end{table}
+
+%=================================================================================================
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Wed, Jun 06, 2018 - 10:38:47 AM
+\begin{table}[!htbp] \centering 
+  \caption{LMHP\_composite\_score\_withoutMHI} 
+  \label{} 
+  \begin{tabular}{@{\extracolsep{5pt}}lc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+    & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-2} 
+    \\[-1.8ex] & log\_median\_house\_price \\ 
+    \hline \\[-1.8ex] 
+    log\_BART\_dist & 0.091$^{***}$ \\ 
+    & (0.018) \\ 
+    & \\ 
+    log\_CBD\_dist & $-$0.073$^{***}$ \\ 
+    & (0.020) \\ 
+    & \\ 
+    coastal\_tracts\_dummy & $-$0.276$^{**}$ \\ 
+    & (0.110) \\ 
+    & \\ 
+    percent\_unempl & $-$0.040$^{***}$ \\ 
+    & (0.007) \\ 
+    & \\ 
+    percent\_non\_white & $-$0.004$^{***}$ \\ 
+    & (0.001) \\ 
+    & \\ 
+    percent\_foreign\_born & 0.003 \\ 
+    & (0.002) \\ 
+    & \\ 
+    Composite\_Score & 0.003$^{***}$ \\ 
+    & (0.001) \\ 
+    & \\ 
+    School\_district\_quality & 0.008$^{*}$ \\ 
+    & (0.004) \\ 
+    & \\ 
+    job\_acc\_auto & 0.00000$^{***}$ \\ 
+    & (0.00000) \\ 
+    & \\ 
+    job\_acc\_transit & $-$0.00000$^{**}$ \\ 
+    & (0.00000) \\ 
+    & \\ 
+    Constant & 9.729$^{***}$ \\ 
+    & (0.590) \\ 
+    & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 975 \\ 
+    Log Likelihood & $-$682.267 \\ 
+    $\sigma^{2}$ & 0.234 \\ 
+    Akaike Inf. Crit. & 1,390.533 \\ 
+    Wald Test & 39.323$^{***}$ (df = 1) \\ 
+    LR Test & 36.868$^{***}$ (df = 1) \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+  \end{tabular} 
+\end{table}
+\end{document}

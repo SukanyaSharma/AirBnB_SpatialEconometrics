@@ -1,0 +1,132 @@
+\documentclass[10pt, letterpaper, landscape]{amsart}
+\usepackage[landscape, left=0.2cm, right=0.2cm, top=1cm]{geometry}
+\usepackage{booktabs}
+\usepackage[justification=centering]{caption}
+
+
+\newcommand{\entry}[3]{\begin{tabular}[t]{@{}l@{}} $#1^{#2}$ \\ $#3$ \end{tabular}}
+
+
+\begin{document}
+\pagenumbering{gobble}
+
+	\begin{table}[!ht]
+	\centering
+	\caption{Coefficients and Standard errors for Spatial Lag models (with MHI)}
+	\label{my-label}
+	\renewcommand{\arraystretch}{0.7}
+	\begin{tabular}{@{}llllllllll@{}}
+		\toprule\\[-2.4ex]\toprule
+		\multicolumn{2}{c}{Independent variables $(X)$} & \multicolumn{8}{c}{Dependent variable $(Y)$} \\ \midrule
+		\addlinespace[0.5em]
+		Category & Variable name & \multicolumn{2}{c}{Rent burdened} & \multicolumn{2}{c}{Rent over-burdened}
+		& \multicolumn{2}{c}{Log median rent} & \multicolumn{2}{c}{Log median house price} \\ 
+		\addlinespace[0.5em]
+		 & &\multicolumn{1}{c}{Model 1} & \multicolumn{1}{c}{Model 2} & \multicolumn{1}{c}{Model 3} &\multicolumn{1}{c}{Model 4} &
+		\multicolumn{1}{c}{Model 5} & \multicolumn{1}{c}{Model 6} & \multicolumn{1}{c}{Model 7} & \multicolumn{1}{c}{Model 8} \\ 
+		\midrule[.5pt]
+		\addlinespace[0.5em]
+	
+		\addlinespace[0.5em]
+		\addlinespace[1.3em]Airbnb
+			 & Airbnb all rentals
+			 & \entry{0.636}{ *}{ (0.359)}
+			 & \entry{}{ }{}\\
+	
+		\addlinespace[0.5em]
+			 & Airbnb composite score
+			 & \entry{}{ }{}
+			 & \entry{0.636}{ *}{ (0.359)}\\
+	
+		\addlinespace[0.5em]
+		\addlinespace[1.3em]Location
+			 & Log BART distance
+			 & \entry{-0.803}{ **}{  (0.375)}
+			 & \entry{-0.803}{ **}{  (0.375)}\\
+	
+		\addlinespace[0.5em]
+			 & Log CBD distance
+			 & \entry{-3.378}{ }{ (2.196)}
+			 & \entry{-3.378}{ }{ (2.196)}\\
+	
+		\addlinespace[0.5em]
+			 & Coastal tracts (dummy)
+			 & \entry{1.512}{ ***}{ (0.133)}
+			 & \entry{1.512}{ ***}{ (0.133)}\\
+	
+		\addlinespace[0.5em]
+		\addlinespace[1.3em]Demographic
+			 & Percentage unemployed
+			 & \entry{0.044}{ * }{ (0.023)}
+			 & \entry{0.044}{ * }{ (0.023)}\\
+	
+		\addlinespace[0.5em]
+			 & Percentage non-white
+			 & \entry{0.087}{ ***}{ (0.033)}
+			 & \entry{0.087}{ ***}{ (0.033)}\\
+	
+		\addlinespace[0.5em]
+			 & Percentage foreign-born
+			 & \entry{0.005}{ }{ (0.021)}
+			 & \entry{0.005}{ }{ (0.021)}\\
+	
+		\addlinespace[0.5em]
+			 & Log median household income
+			 & \entry{-0.199}{ **}{ (0.086)}
+			 & \entry{-0.199}{ **}{ (0.086)}\\
+	
+		\addlinespace[0.5em]
+		\addlinespace[1.3em]Neighborhood level
+			 & School district quality
+			 & \entry{-0.00002}{ ***}{ (0.00001)}
+			 & \entry{-0.00002}{ ***}{ (0.00001)}\\
+	
+		\addlinespace[0.5em]
+		\addlinespace[1.3em]Job accessibility
+			 & Accessibility by car
+			 & \entry{0.00003}{ }{(0.00002)}
+			 & \entry{0.00003}{ }{(0.00002)}\\
+	
+		\addlinespace[0.5em]
+			 & Accessibility by transit
+			 & \entry{16.756}{ ***}{  (3.135)}
+			 & \entry{16.756}{ ***}{  (3.135)}\\
+	
+		\addlinespace[0.5em]
+		\addlinespace[1.3em]Constant
+			 & Intercept
+			 & \entry{2}{ }{ (2)}
+			 & \entry{2}{ }{ (2)}\\
+	
+		\addlinespace[0.5em]
+		\addlinespace[1.3em]\addlinespace[-1.3em]\midrule\addlinespace[0.5em] Tests and statistics
+			 & Log likelihood
+			 & 195
+			 & 195\\
+	
+		\addlinespace[0.5em]
+			 & $\sigma^2$
+			 & 195
+			 & 195\\
+	
+		\addlinespace[0.5em]
+			 & Number of observations
+			 & 195
+			 & 195\\
+	
+		\addlinespace[0.5em]
+			 & deg.\ of freedom
+			 & 195
+			 & 195\\
+	
+		\addlinespace[0.5em]
+			 & AIC
+			 & 195
+			 & 195
+
+\\ \midrule\\[-2.8ex]\bottomrule
+		\\ 
+		\emph{Notes:} & \multicolumn{9}{l}{${}^{*}p<0.1; \quad {}^{**}p<0.05;  \quad {}^{***}p<0.01 $ } \\ 
+		\end{tabular}
+	\end{table}
+\end{document}
