@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.1)  10 JUN 2018 22:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.1)  10 JUN 2018 22:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -234,14 +234,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
-LaTeX Warning: Float too large for page by 46.84158pt on input line 228.
+LaTeX Warning: Float too large for page by 38.44164pt on input line 228.
 
 [1{/home/vaibhav/.texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./Table_without_MHI.aux) ) 
 Here is how much of TeX's memory you used:
  3024 strings out of 492649
  43637 string characters out of 6127731
- 143442 words of memory out of 5000000
+ 142442 words of memory out of 5000000
  6761 multiletter control sequences out of 15000+600000
  9086 words of font info for 36 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
@@ -254,7 +254,7 @@ ts/type1/public/amsfonts/cm/cmr7.pfb></home/vaibhav/.texlive/2018/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmsy10.pfb></home/vaibhav/.texlive/2018/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmsy7.pfb></home/vaibhav/.texlive/2018/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Table_without_MHI.pdf (1 page, 71484 bytes).
+Output written on Table_without_MHI.pdf (1 page, 71379 bytes).
 PDF statistics:
  36 PDF objects out of 1000 (max. 8388607)
  25 compressed objects within 1 object stream

@@ -40,7 +40,7 @@ begin = ['\n', '\\begin{document}',
          '',
          '\t\\begin{table}[!ht]',
          '\t\centering',
-         '\t\caption{Coefficients and Standard errors for Spatial Lag models (with MHI)}',
+         '\t\caption{Coefficients and Standard errors for Spatial Lag models (without MHI)}',
          '\t\label{my-label}',
          '\t\\renewcommand{\\arraystretch}{0.7}',
          '\t\\begin{tabular}{@{}llllllllll@{}}',
@@ -94,7 +94,7 @@ for i in range(len(columns[0])):
 switch = 0
 for row in range(len(columns[0])):
     for c in range(total_columns-2):
-        if row >= 13:
+        if row >= 12:
             table[row].append('{}'.format(columns[c][row][0]))
         else:
             table[row].append('\entry{{{0}}}{{{1}}}{{{2}}}'.format(*columns[c][row]))
