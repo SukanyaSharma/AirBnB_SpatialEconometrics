@@ -1,3 +1,4 @@
+Individual,GEOID,Census_Tract,year,rent_burdened,rent_overburdened,log_median_rent,log_median_house_price,percent_airbnb_all_rentals,percent_airbnb_active_rentals,percent_bachelors_degree,percent_unempl,percent_foreign_born,percent_non_white,log_MHI
 2013,6075010100,Census Tract 101,2013,24.218336,17.0111288,7.319202459,13.54094212,0,0,60.7,4.5,49.2,47.23,10.911409
 2014,6075010100,Census Tract 101,2014,21.6201423,16.7487685,7.342131731,13.59211698,1.3136289,1.438848921,58.56264163,4.7,49.77789391,47.27,11.234864
 2015,6075010100,Census Tract 101,2015,22.3135643,18.8490898,7.351799869,13.57940841,1.996476806,2.352941176,56.94263364,5.1,51.94839389,44.08,11.025849
