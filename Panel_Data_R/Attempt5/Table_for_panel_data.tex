@@ -1,0 +1,171 @@
+\documentclass[10pt, letterpaper, landscape]{amsart}
+\usepackage[landscape, left=0.2cm, right=0.2cm, top=3cm]{geometry}
+\usepackage{booktabs}
+\usepackage[justification=centering]{caption}
+
+
+\newcommand{\entry}[3]{\begin{tabular}[t]{@{}l@{}} $#1^{#2}$ \\ $#3$ \end{tabular}}
+
+
+\begin{document}
+\pagenumbering{gobble}
+
+	\begin{table}[!ht]
+	\centering
+	\caption{Coefficients and Standard errors for Random Effects linear models}
+	\label{my-label}
+	\renewcommand{\arraystretch}{0.7}
+	\begin{tabular}{@{}llllllllll@{}}
+		\toprule\\[-2.4ex]\toprule
+		\multicolumn{2}{c}{Independent variables $(X)$} & \multicolumn{8}{c}{Dependent variable $(Y)$} \\ \midrule
+		\addlinespace[0.5em]
+		Category & Variable name & \multicolumn{2}{c}{Rent burdened} & \multicolumn{2}{c}{Rent over-burdened}
+		& \multicolumn{2}{c}{Log median rent} & \multicolumn{2}{c}{Log median house price} \\ 
+		\addlinespace[0.5em]
+		 & &\multicolumn{1}{c}{Model 1} & \multicolumn{1}{c}{Model 2} & \multicolumn{1}{c}{Model 3}&\multicolumn{1}{c}{Model 4} &
+		\multicolumn{1}{c}{Model 5} & \multicolumn{1}{c}{Model 6} & \multicolumn{1}{c}{Model 7} & \multicolumn{1}{c}{Model 8}\\ 
+		\midrule[.5pt]
+		\addlinespace[-0.5em]
+	
+		\addlinespace[0.5em]
+		\addlinespace[1.1em]Airbnb
+			 & Airbnb all rentals
+			 & \entry{7.260}{***}{ (0.467)}
+			 & \entry{}{}{}
+			 & \entry{-0.201}{ }{(0.290)}
+			 & \entry{}{}{}
+			 & \entry{0.001}{ }{(0.001)}
+			 & \entry{}{}{}
+			 & \entry{-0.006}{ }{(0.005)}
+			 & \entry{}{}{}\\
+	
+		\addlinespace[0.5em]
+			 & Airbnb active rentals
+			 & \entry{}{ }{}
+			 & \entry{-0.014}{ ***}{ (0.004)}
+			 & \entry{}{}{}
+			 & \entry{0.001}{}{(0.001)}
+			 & \entry{}{}{}
+			 & \entry{-0.149}{}{(0.239)}
+			 & \entry{}{}{}
+			 & \entry{6.103}{***}{(0.383)}\\
+	
+		\addlinespace[0.5em]
+		\addlinespace[1.1em]Demographic
+			 & Percent bachelor's degree
+			 & \entry{-0.098}{ }{ (0.079)}
+			 & \entry{0.002}{ ***}{ (0.001)}
+			 & \entry{-0.156}{ ** }{(0.067)}
+			 & \entry{0.001}{***}{(0.0002)}
+			 & \entry{0.001}{***}{ (0.0002)}
+			 & \entry{-0.157}{**}{(0.067)}
+			 & \entry{0.002}{ *** }{(0.001)}
+			 & \entry{-0.089}{}{(0.079)}\\
+	
+		\addlinespace[0.5em]
+			 & Percentage foreign-born
+			 & \entry{-0.131}{***}{ (0.048)}
+			 & \entry{0.003}{ ***}{ (0.0005)}
+			 & \entry{-0.010}{ }{(0.032)}
+			 & \entry{0.0002}{}{(0.0001)}
+			 & \entry{0.0002}{ }{(0.0001)}
+			 & \entry{-0.010}{}{(0.032)}
+			 & \entry{0.003}{ *** }{(0.0005)}
+			 & \entry{-0.132}{***}{(0.047)}\\
+	
+		\addlinespace[0.5em]
+			 & Percentage unemployed
+			 & \entry{0.302}{ }{(0.209)}
+			 & \entry{0.001}{ }{(0.002)}
+			 & \entry{-0.108}{ }{(0.142)}
+			 & \entry{0.0001}{}{(0.001)}
+			 & \entry{0.0001}{ }{(0.001)}
+			 & \entry{-0.109}{}{(0.142)}
+			 & \entry{0.001}{ }{(0.002)}
+			 & \entry{0.373}{*}{(0.208)}\\
+	
+		\addlinespace[0.5em]
+			 & Percentage non-white
+			 & \entry{0.357}{ ***}{ (0.071)}
+			 & \entry{-0.002}{ ***}{(0.001)}
+			 & \entry{0.174}{ ***}{ (0.058)}
+			 & \entry{0.0001}{}{(0.0002)}
+			 & \entry{0.0001}{ }{(0.0002)}
+			 & \entry{0.172}{***}{(0.058)}
+			 & \entry{-0.002}{ ***}{(0.001)}
+			 & \entry{0.369}{***}{(0.071)}\\
+	
+		\addlinespace[0.5em]
+			 & Log median household income
+			 & \entry{0.028}{ }{(0.045)}
+			 & \entry{-0.0003}{}{(0.0004)}
+			 & \entry{-0.063}{ *}{ (0.038)}
+			 & \entry{-0.0002}{}{(0.0001)}
+			 & \entry{-0.0002}{ }{(0.0001)}
+			 & \entry{-0.064}{*}{(0.038)}
+			 & \entry{-0.0004}{ }{(0.0004)}
+			 & \entry{0.029}{}{(0.045)}\\
+	
+		\addlinespace[0.5em]
+		\addlinespace[1.1em]Constant
+			 & Intercept
+			 & \entry{238.114}{ ***}{ (52.233)}
+			 & \entry{12.470}{***}{(0.438)}
+			 & \entry{313.727}{ ***}{ (43.038)}
+			 & \entry{6.779}{***}{(0.133)}
+			 & \entry{6.779}{ ***}{ (0.133)}
+			 & \entry{314.671}{***}{(42.945)}
+			 & \entry{12.412}{ *** }{(0.438)}
+			 & \entry{223.533}{***}{(52.058)}\\
+	
+		\addlinespace[0.5em]
+		\addlinespace[1.1em]\addlinespace[-1.3em]\midrule\addlinespace[0.5em] Tests and statistics
+			 & Observations
+			 & 784
+			 & 784
+			 & 784
+			 & 784
+			 & 784
+			 & 784
+			 & 784
+			 & 784\\
+	
+		\addlinespace[0.5em]
+			 & R$^2$
+			 & 0.300
+			 & 0.085
+			 & 0.081
+			 & 0.119
+			 & 0.119
+			 & 0.081
+			 & 0.074
+			 & 0.309\\
+	
+		\addlinespace[0.5em]
+			 & Adjusted R$^2$
+			 & 0.295
+			 & 0.078
+			 & 0.074
+			 & 0.112
+			 & 0.112
+			 & 0.074
+			 & 0.067
+			 & 0.303\\
+	
+		\addlinespace[0.5em]
+			 & F Statistic
+			 & \entry{55.481}{ ***}{ (df = 6; 777)}
+			 & \entry{11.994}{***}{(df = 6; 777)}
+			 & \entry{11.430}{ ***}{ (df = 6; 777)}
+			 & \entry{17.465}{***}{(df = 6; 777)}
+			 & \entry{17.511}{ ***}{ (df = 6; 777)}
+			 & \entry{11.425}{***}{(df = 6; 777)}
+			 & \entry{10.340}{***}{ (df = 6; 777)}
+			 & \entry{57.858}{***}{(df = 6; 777)}
+
+\\ \midrule\\[-2.8ex]\bottomrule
+		\\ 
+		\emph{Notes:} & \multicolumn{9}{l}{${}^{*}p<0.1; \quad {}^{**}p<0.05;  \quad {}^{***}p<0.01 $ } \\ 
+		\end{tabular}
+	\end{table}
+\end{document}
