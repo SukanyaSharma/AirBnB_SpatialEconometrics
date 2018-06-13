@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.1)  3 JUN 2018 23:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.1)  13 JUN 2018 01:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Merged_Spatial_Lag.tex
-(./Merged_Spatial_Lag.tex
+**Table.tex
+(./Table.tex
 LaTeX2e <2018-04-01> patch level 3
 Babel <3.19> and hyphenation patterns for 84 language(s) loaded.
 (/home/vaibhav/.texlive/2018/texmf-dist/tex/latex/amscls/amsart.cls
@@ -172,27 +172,27 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 Package caption Info: AMS or SMF document class.
 \c@ContinuedFloat=\count107
 )
-(./Merged_Spatial_Lag.aux)
-\openout1 = `Merged_Spatial_Lag.aux'.
+(./Table.aux)
+\openout1 = `Table.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Try loading font information for U+msa on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Try loading font information for U+msa on input line 10.
 
 (/home/vaibhav/.texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 6.
+LaTeX Font Info:    Try loading font information for U+msb on input line 10.
 
 (/home/vaibhav/.texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -206,14 +206,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: landscape twoside 
 * h-part:(L,W,R)=(5.69046pt, 783.58907pt, 5.69046pt)
-* v-part:(T,H,B)=(28.45274pt, 512.12613pt, 73.71613pt)
+* v-part:(T,H,B)=(56.9055pt, 483.67337pt, 73.71613pt)
 * \paperwidth=794.96999pt
 * \paperheight=614.295pt
 * \textwidth=783.58907pt
-* \textheight=512.12613pt
+* \textheight=483.67337pt
 * \oddsidemargin=-66.57953pt
 * \evensidemargin=-66.57953pt
-* \topmargin=-65.81725pt
+* \topmargin=-37.36449pt
 * \headheight=8.0pt
 * \headsep=14.0pt
 * \topskip=10.0pt
@@ -234,27 +234,27 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
-LaTeX Warning: Float too large for page by 38.84541pt on input line 73.
+LaTeX Warning: Float too large for page by 16.19359pt on input line 205.
 
 [1{/home/vaibhav/.texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./Merged_Spatial_Lag.aux) ) 
+(./Table.aux) ) 
 Here is how much of TeX's memory you used:
- 3023 strings out of 492649
- 43641 string characters out of 6127731
- 143442 words of memory out of 5000000
- 6760 multiletter control sequences out of 15000+600000
+ 3024 strings out of 492649
+ 43529 string characters out of 6127731
+ 141441 words of memory out of 5000000
+ 6761 multiletter control sequences out of 15000+600000
  9086 words of font info for 36 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 36i,15n,39p,617b,294s stack positions out of 5000i,500n,10000p,200000b,80000s
-</home/vaibhav/.texlive/2018/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmcsc10.pfb></home/vaibhav/.texlive/2018/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi10.pfb></home/vaibhav/.texlive/2018/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr10.pfb></home/vaibhav/.texlive/2018/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr7.pfb></home/vaibhav/.texlive/2018/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb></home/vaibhav/.texlive/2018/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy7.pfb></home/vaibhav/.texlive/2018/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Merged_Spatial_Lag.pdf (1 page, 71176 bytes).
+ 36i,15n,39p,308b,294s stack positions out of 5000i,500n,10000p,200000b,80000s
+</home/vaibhav/.texlive/2018/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmcsc10.pfb></home/vaibhav/.texlive/2018/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi10.pfb></home/vaibhav/.texlive/2018/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb></home/vaibhav/.texlive/2018/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr7.pfb></home/vaibhav/.texlive/2018/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb></home/vaibhav/.texlive/2018/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy7.pfb></home/vaibhav/.texlive/2018/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmti10.pfb>
+Output written on Table.pdf (1 page, 69957 bytes).
 PDF statistics:
  36 PDF objects out of 1000 (max. 8388607)
  25 compressed objects within 1 object stream

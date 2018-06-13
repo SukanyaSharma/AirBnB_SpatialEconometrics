@@ -6,34 +6,32 @@ total_columns = 2 + 8 # includes names
 
 column1 = ['Airbnb', '',
            'Location', '', '',
-           'Demographic', '', '',
-           'Neighborhood level',
-           'Job accessibility', '',
+           'Demographic', '', '', '',
+           'Time',
            'Constant',
            '\\addlinespace[-1.3em]\midrule\\addlinespace[0.5em] Tests and statistics', '', '', '']
 
-column2 = ['Log percent Airbnb',
-           'Log Weighted Airbnb listings',
+column2 = ['Log percent Airbnb all rentals',
+           'Log percent Airbnb active rentals',
            'Log BART distance',
            'Log CBD distance',
            'Coastal tracts (dummy)',
-           'Log unemployment rate',
-           'Log percent non-white',
+           "Log percent bachelor's degree",
            'Log percent foreign-born',
-           'Log school district quality',
-           'Log accessibility by car',
-           'Log accessibility by transit',
+           'Log percent unemployed',
+           'Log median household income',
+           'Trend',
            'Intercept',
            'Number of observations',
-           'Log likelihood',
-           'Rho',
-           'AIC']
+           'R$^2$',
+           'Adjusted R$^2$',
+           'F statistic']
            
            
            
            
 preamble = ['\documentclass[10pt, letterpaper, landscape]{amsart}',
-            '\\usepackage[landscape, left=0.2cm, right=0.2cm, top=1cm]{geometry}', 
+            '\\usepackage[landscape, left=0.2cm, right=0.2cm, top=2cm]{geometry}', 
             '\\usepackage{booktabs}',
             '\\usepackage[justification=centering]{caption}']
 
@@ -44,7 +42,7 @@ begin = ['\n', '\\begin{document}',
          '',
          '\t\\begin{table}[!ht]',
          '\t\centering',
-         '\t\caption{Coefficients and Standard errors for Spatial Lag models}',
+         '\t\caption{Coefficients and Standard errors for Random Effects Linear models}',
          '\t\label{my-label}',
          '\t\\renewcommand{\\arraystretch}{0.7}',
          '\t\\begin{tabular}{@{}llllllllll@{}}',
@@ -67,7 +65,7 @@ end = ['',
        '\t\end{table}',
        '\end{document}']
 
-readfile = open('consolidated_table_data.txt', 'r')
+readfile = open('Panel_Cleaned.txt', 'r')
 lines = readfile.readlines()
 lines = [i.strip() for i in lines]
 
@@ -98,12 +96,13 @@ for i in range(len(columns[0])):
 switch = 0
 for row in range(len(columns[0])):
     for c in range(total_columns-2):
-        if row >= 12 and row != 14:
+        if row >= 11 and row != 14:
             table[row].append('${}$'.format(columns[c][row][0]))
         elif row == 14:
             table[row].append('${}^{{{}}}$'.format(*columns[c][row][0:2]))
         else:
             table[row].append('\entry{{{0}}}{{{1}}}{{{2}}}'.format(*columns[c][row]))
+        print(c,row)
     table[row] = '\n\t\t\t & '.join(table[row])
 table = ['\t' + '\\\\\n\t'.join(table)]
 
