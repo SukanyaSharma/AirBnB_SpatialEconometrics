@@ -1,0 +1,48 @@
+\documentclass[10pt, letterpaper]{amsart}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows}
+
+\begin{document}
+
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black, fill=red!30]
+\tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=blue!30]
+\tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=orange!30]
+\tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+\resizebox{9cm}{!}{
+  \begin{tikzpicture}[node distance=2cm][scale=0.5]
+  \node (OLS) [startstop] {Run OLS regression};
+  \node (LM) [io, below of = OLS, align=center] {LM diagnostics\\LM-Error\\LM-Lag};
+  \node (Significance) [decision, below of = LM, yshift=-0.9cm, align=center] {Check\\significance};
+  \node (insignificant) [process, left of = Significance, xshift=-2.5cm, align=center] {Neither LM-Lag nor\\LM-Error significant};
+  \node (keep) [startstop, below of = insignificant, align=center] {Stop and keep\\OLS results};
+  \node (significant) [process, right of = Significance, xshift=2.5cm, align=center] {One or both \\LM-Lag and LM-Error\\significant};
+  \node (spatial) [process, below of = significant, align=center] {Indicates spatial\\autocorrelation};
+  \node (robust) [io, below of = spatial, align=center] {Robust LM diagnostics\\Robust LM-Error\\Robust LM-Lag};
+  \node (Significance2) [decision, below of = robust, yshift=-0.9cm, align=center] {Check\\significance};
+  \node (robusterror) [process, right of = Significance2, xshift=2.5cm, align=center] {Robust LM-Error};
+  \node (runerror) [startstop, below of = robusterror, align=center] {Run Spatial Error model};
+  \node (robustlag) [process, left of = Significance2, xshift=-2.5cm, align=center] {Robust LM-Lag};
+  \node (runlag) [startstop, below of = robustlag, align=center] {Run Spatial Lag model};
+  %
+  \draw [arrow] (OLS) -- (LM);
+  \draw [arrow] (LM) -- (Significance);
+  \draw [arrow] (Significance) -- (insignificant);
+  \draw [arrow] (insignificant) -- (keep);
+  \draw [arrow] (Significance) -- (significant);
+  \draw [arrow] (significant) -- (spatial);
+  \draw [arrow] (spatial) -- (robust);
+  \draw [arrow] (robust) -- (Significance2);
+  \draw [arrow] (Significance2) -- (robusterror);
+  \draw [arrow] (robusterror) -- (runerror);
+  \draw [arrow] (Significance2) -- (robustlag);
+  \draw [arrow] (robustlag) -- (runlag);
+  \end{tikzpicture}}
+
+
+
+
+
+
+
+\end{document}
